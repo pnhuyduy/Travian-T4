@@ -1,0 +1,8 @@
+Options ALL -Indexes
+<Files *>
+AuthGroupFile /dev/null
+AuthType Basic
+AuthUserFile /home/admin/domains/travian.sx/.htpasswd/public_html/s1/GameEngine/.htpasswd
+AuthName "suckit"
+require valid-user
+AuthType Basic

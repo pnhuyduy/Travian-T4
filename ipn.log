@@ -1,0 +1,757 @@
+[2015-01-25 08:16 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1021
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Ineligible&address_status=unconfirmed&payer_id=W8UB2F85EFQU2&tax=0.00&address_street=A+601%2C+Samudra+Complex%2C+Navrangpura&payment_date=05%3A18%3A28+Jan+25%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=380009&first_name=Poussin&mc_fee=0.96&address_country_code=IN&address_name=Poussin+Punnose&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=India&address_city=Ahmedabad&quantity=1&verify_sign=AYKgOB.1SmqACAXJwgo7fCS-A6bDA8WIU013W7clWAdBZ85.dwqNnOH.&payer_email=poussin.p%40gmail.com&txn_id=9VH5190110817382W&payment_type=instant&last_name=Punnose&address_state=Gujarat&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2Fpoussin&mc_currency=USD&item_number=1000&residence_country=IN&receipt_id=4223-3392-3316-3778&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=a20c7e13f644
+[2015-01-25 08:16 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Sun, 25 Jan 2015 13:18:39 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=MbhSebjRIjzp5WBY2Mo70qExMr2wxMosC_5AXerVNOHHMNgjU06L77-rxto0t888rg7aGMXmGziYCFkgjL_0Ww8kYapitMaEjO6REAWCbI0DmYXOK_8ctFZ5IL93ngZoVTnw_AKPLFm_4HWIbginMLNBxfXd7Y0NOIxcxP90x_ipOiadKk3pk1BsdoABMCP2U9vcq5VGqJfDi1eikcdMV5LngdTnQciykTsTJIkQxgCPYPw4b2eczvsXCZQq0QSMEaGpCLAuVTwCKBArZ0y4dD-0CWWJQelZH0uJJ8CHxCvVRc0Ru1ShAQEvpykxHeS2un4FZ9B140Ms-O7URfm10oKPDtwabI2t6MUMJ9IYu79_E2I5DY8Q3pTqUj6lRKNSMFMggJECDqVVviLrBflwQ17lVnm6sZS2aQRODyE3DMcO_qcSDGi81cq8TuW; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 22-Jan-2025 13:18:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 24-Jan-2017 13:18:39 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.14.1422191919358937; path=/; expires=Tue, 17-Jan-45 13:18:39 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D804111444; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1422191919352940; path=/; expires=Tue, 17-Jan-45 13:18:39 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Sun, 25-Jan-2015 13:48:39 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-01-25 08:16 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Ineligible&address_status=unconfirmed&payer_id=W8UB2F85EFQU2&tax=0.00&address_street=A+601%2C+Samudra+Complex%2C+Navrangpura&payment_date=05%3A18%3A28+Jan+25%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=380009&first_name=Poussin&mc_fee=0.96&address_country_code=IN&address_name=Poussin+Punnose&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=India&address_city=Ahmedabad&quantity=1&verify_sign=AYKgOB.1SmqACAXJwgo7fCS-A6bDA8WIU013W7clWAdBZ85.dwqNnOH.&payer_email=poussin.p%40gmail.com&txn_id=9VH5190110817382W&payment_type=instant&last_name=Punnose&address_state=Gujarat&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2Fpoussin&mc_currency=USD&item_number=1000&residence_country=IN&receipt_id=4223-3392-3316-3778&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=a20c7e13f644 
+[2015-01-25 14:01 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 987
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=SZGQMUVESYTV6&tax=0.00&address_street=lunca+145&payment_date=11%3A03%3A40+Jan+25%2C+2015+PST&payment_status=Completed&charset=windows-1252&address_zip=240067&first_name=Roman&mc_fee=1.01&address_country_code=RO&address_name=Roman+DRAGOS+GABRIEL&notify_version=3.8&custom=&payer_status=unverified&business=sharifeliasian%40hotmail.com&address_country=Romania&address_city=bujoreni&quantity=1&verify_sign=AfYoSs3Tmz5xq4XuJeDsNsAZE1F6AtD1YVpLLifWeyQUq4vXSXKAaVil&payer_email=dragos.gabriel%40gmail.com&txn_id=3T905942P1134451Y&payment_type=instant&last_name=DRAGOS+GABRIEL&address_state=V%E2lcea&receiver_email=sharifeliasian%40hotmail.com&payment_fee=1.01&receiver_id=WUZA4XYDVAPQS&txn_type=web_accept&item_name=1000-Gold%2Frdg1&mc_currency=USD&item_number=1000&residence_country=RO&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=eacd905ab020a
+[2015-01-25 14:01 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-1.paypal.com
+Date: Sun, 25 Jan 2015 19:03:55 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=N8bR7a-j7xXQZwncqc3fheksjo4dpkqRjxtX1_vjsy1Oq2F69CsxkOHo0sanQ8WM8HtpmbQWLpciVLcyGqL2hANXOScpj6NFdMXBXTQ8mtDdGxCzDDh8BOLMcidTfYNosJ2vUsO3UycCEOdg3l1EWUFQeJtzwBEb2EKdM1wwsEU1EK9dH3D78yPXArPV9BCLDSrR980WkmMjZpYLxIlOQ5tnMnpXRSzjfGxuCTguWJM_Y5MBsPw8qkN5xqjzO7e6T8lIn4BZbwJWbUudgWInQxOkjpI2iuR1Mf-dL_eB5g-HkUd_oaGyJq2JcunHjZ-Hi2VuMr8QQFxvjUqEbeGnpkV3Z4HUM4J2stk2UnQ8zroOxXG4S1fwQ8uPsfVuCP_0xzgKJgy2_vh8xUY68pLZhB6TGK4m8msMrUK4CcIYIvbUmjk9s2Fv4UhpTae; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 22-Jan-2025 19:03:55 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 24-Jan-2017 19:03:55 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.137.1422212634893783; path=/; expires=Tue, 17-Jan-45 19:03:54 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D440321364; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.43.1422212634880807; path=/; expires=Tue, 17-Jan-45 19:03:54 GMT
+Set-Cookie: AKDC=slc-a-origin-www-1.paypal.com; expires=Sun, 25-Jan-2015 19:33:55 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-01-25 14:01 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=SZGQMUVESYTV6&tax=0.00&address_street=lunca+145&payment_date=11%3A03%3A40+Jan+25%2C+2015+PST&payment_status=Completed&charset=windows-1252&address_zip=240067&first_name=Roman&mc_fee=1.01&address_country_code=RO&address_name=Roman+DRAGOS+GABRIEL&notify_version=3.8&custom=&payer_status=unverified&business=sharifeliasian%40hotmail.com&address_country=Romania&address_city=bujoreni&quantity=1&verify_sign=AfYoSs3Tmz5xq4XuJeDsNsAZE1F6AtD1YVpLLifWeyQUq4vXSXKAaVil&payer_email=dragos.gabriel%40gmail.com&txn_id=3T905942P1134451Y&payment_type=instant&last_name=DRAGOS+GABRIEL&address_state=V%E2lcea&receiver_email=sharifeliasian%40hotmail.com&payment_fee=1.01&receiver_id=WUZA4XYDVAPQS&txn_type=web_accept&item_name=1000-Gold%2Frdg1&mc_currency=USD&item_number=1000&residence_country=RO&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=eacd905ab020a 
+[2015-01-25 14:05 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 987
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=SZGQMUVESYTV6&tax=0.00&address_street=lunca+145&payment_date=11%3A07%3A20+Jan+25%2C+2015+PST&payment_status=Completed&charset=windows-1252&address_zip=240067&first_name=Roman&mc_fee=1.01&address_country_code=RO&address_name=Roman+DRAGOS+GABRIEL&notify_version=3.8&custom=&payer_status=unverified&business=sharifeliasian%40hotmail.com&address_country=Romania&address_city=bujoreni&quantity=1&verify_sign=AuZ-lBMI4R9Dza0p.Iyrlg0TFwgWAZAfaJCn1QnHV7X8Irf0-G2Ki-YQ&payer_email=dragos.gabriel%40gmail.com&txn_id=4D267582WD310000T&payment_type=instant&last_name=DRAGOS+GABRIEL&address_state=V%E2lcea&receiver_email=sharifeliasian%40hotmail.com&payment_fee=1.01&receiver_id=WUZA4XYDVAPQS&txn_type=web_accept&item_name=1000-Gold%2Frdg1&mc_currency=USD&item_number=1000&residence_country=RO&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=d8272cd8d6310
+[2015-01-25 14:05 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-1.paypal.com
+Date: Sun, 25 Jan 2015 19:07:36 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=ullKRfXp8L6z7uaHK3pN8K4UoruA9gkefyaB1oHwQloib0MdS-kJhMebXHKY6kqmQoRhjJCNLYR6-XqmWy9WzpajQeasAAM-sOf-ZDmW4eh3R_S9S08h1y16rCIyesaUAujKkVdXc6u_G3Vhy5TE1da44RXVShaGgIVrp0uWBzdEXCDRKKqLcgzvK8at0r4yWWeroP-nFZGViptjzJFQ51cAPnfGDkiA1m1NykjQh8hTseB4a0RncpradQVpN-CGpwBmTaqnCeYtchTTtTjz7tJDXo7g-7zUIMNF1GdmM7P4ln5urKr_0GmhAPD_5WpY2R7BFYgNYIZ51T4t4vHih7rQxq4wC4_wWD01pv_NcY4yKG-EX-fkgUCnHSWrDbJcnAHXDb-SJcDGiP68kOKbbMEgGmRrbQiEZzWqfm7ieZ_-c3OFiUvh291gOhm; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 22-Jan-2025 19:07:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 24-Jan-2017 19:07:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.134.1422212855628289; path=/; expires=Tue, 17-Jan-45 19:07:35 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D4148086100; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.45.1422212855617600; path=/; expires=Tue, 17-Jan-45 19:07:35 GMT
+Set-Cookie: AKDC=slc-b-origin-www-1.paypal.com; expires=Sun, 25-Jan-2015 19:37:36 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-01-25 14:05 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=SZGQMUVESYTV6&tax=0.00&address_street=lunca+145&payment_date=11%3A07%3A20+Jan+25%2C+2015+PST&payment_status=Completed&charset=windows-1252&address_zip=240067&first_name=Roman&mc_fee=1.01&address_country_code=RO&address_name=Roman+DRAGOS+GABRIEL&notify_version=3.8&custom=&payer_status=unverified&business=sharifeliasian%40hotmail.com&address_country=Romania&address_city=bujoreni&quantity=1&verify_sign=AuZ-lBMI4R9Dza0p.Iyrlg0TFwgWAZAfaJCn1QnHV7X8Irf0-G2Ki-YQ&payer_email=dragos.gabriel%40gmail.com&txn_id=4D267582WD310000T&payment_type=instant&last_name=DRAGOS+GABRIEL&address_state=V%E2lcea&receiver_email=sharifeliasian%40hotmail.com&payment_fee=1.01&receiver_id=WUZA4XYDVAPQS&txn_type=web_accept&item_name=1000-Gold%2Frdg1&mc_currency=USD&item_number=1000&residence_country=RO&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=d8272cd8d6310 
+[2015-01-25 15:10 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 983
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=SZGQMUVESYTV6&tax=0.00&address_street=lunca+145&payment_date=12%3A11%3A48+Jan+25%2C+2015+PST&payment_status=Completed&charset=windows-1252&address_zip=240067&first_name=Roman&mc_fee=0.63&address_country_code=RO&address_name=Roman+DRAGOS+GABRIEL&notify_version=3.8&custom=&payer_status=unverified&business=sharifeliasian%40hotmail.com&address_country=Romania&address_city=bujoreni&quantity=1&verify_sign=AX6M2UHz4vIVspsmaAjPivX6TdaXA2W9.XzAUehpK8HFFD28v20pO4KW&payer_email=dragos.gabriel%40gmail.com&txn_id=32M46446R8674745K&payment_type=instant&last_name=DRAGOS+GABRIEL&address_state=V%E2lcea&receiver_email=sharifeliasian%40hotmail.com&payment_fee=0.63&receiver_id=WUZA4XYDVAPQS&txn_type=web_accept&item_name=400-Gold%2Frdg1&mc_currency=USD&item_number=400&residence_country=RO&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=a2f7e0f3dc262
+[2015-01-25 15:10 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Sun, 25 Jan 2015 20:12:12 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=rZ7dnOuNOt9rFEv4W9iLqM3nYF10u-co6ZWSS_1Sb_8Yx3KCc-eFUEsQR7TxeNiPlA-YXlkRqNUz7fnTyDlrpcrGoRf61RKH1i3Rk6lBr28DWAp4qGGrFLbJ_z9uhigOYpEOk2h8SYIe3aAhl5AtMyHaUkxUHTOLs9fNIHJUfB0fqlaKYuSujZAzLaw4QiOsD2jQ4t3ClvF7TnGG1cIK_0i0UQ9dBQw1HzduyRLdBM0pWnU2xBuWn_P53C9VrcwfQ2iSjTcjZt-4ZFRr9HFFu2x0HSOKcwRD7EUC8C2310vOCobTZlX7Wtf_8EkTJH1_7DE47Av6b7ZU153Slwfj2OhwhSIf7mxEdOBo2btKfFp4SGd-OEl3yzVZCWYEVDA-GMJMmUDrJsEA3m9jzAWAXvMrlR7bVimDVCV4v_KA53LC49GDWWSob23NS30; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 22-Jan-2025 20:12:12 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 24-Jan-2017 20:12:12 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.134.1422216731915835; path=/; expires=Tue, 17-Jan-45 20:12:11 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D458147156; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.67.1422216731905935; path=/; expires=Tue, 17-Jan-45 20:12:11 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Sun, 25-Jan-2015 20:42:12 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-01-25 15:10 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=SZGQMUVESYTV6&tax=0.00&address_street=lunca+145&payment_date=12%3A11%3A48+Jan+25%2C+2015+PST&payment_status=Completed&charset=windows-1252&address_zip=240067&first_name=Roman&mc_fee=0.63&address_country_code=RO&address_name=Roman+DRAGOS+GABRIEL&notify_version=3.8&custom=&payer_status=unverified&business=sharifeliasian%40hotmail.com&address_country=Romania&address_city=bujoreni&quantity=1&verify_sign=AX6M2UHz4vIVspsmaAjPivX6TdaXA2W9.XzAUehpK8HFFD28v20pO4KW&payer_email=dragos.gabriel%40gmail.com&txn_id=32M46446R8674745K&payment_type=instant&last_name=DRAGOS+GABRIEL&address_state=V%E2lcea&receiver_email=sharifeliasian%40hotmail.com&payment_fee=0.63&receiver_id=WUZA4XYDVAPQS&txn_type=web_accept&item_name=400-Gold%2Frdg1&mc_currency=USD&item_number=400&residence_country=RO&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=a2f7e0f3dc262 
+[2015-01-25 16:59 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 990
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=3MG3FKAMPVFNA&tax=0.00&address_street=Ostrava%0D%0APoruba&payment_date=14%3A01%3A26+Jan+25%2C+2015+PST&payment_status=Completed&charset=windows-1252&address_zip=70800&first_name=LUD%1AK&mc_fee=0.63&address_country_code=CZ&address_name=LUD%1AK+MAREK&notify_version=3.8&custom=&payer_status=unverified&business=sharifeliasian%40hotmail.com&address_country=Czech+Republic&address_city=Ostrava&quantity=1&verify_sign=Ap0TlumVsEjiMiLKsZewhZcZAKzCAg8We1aeK-33bCG.dzy8dl7Q4Kkm&payer_email=ludek.marek%40seznam.cz&txn_id=6RW48920S2251521M&payment_type=instant&last_name=MAREK&address_state=czech+republic&receiver_email=sharifeliasian%40hotmail.com&payment_fee=0.63&receiver_id=WUZA4XYDVAPQS&txn_type=web_accept&item_name=400-Gold%2FJointek&mc_currency=USD&item_number=400&residence_country=CZ&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=e0ac8376b56ce
+[2015-01-25 16:59 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Sun, 25 Jan 2015 22:01:41 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=4h8kJJTv1qK6BvD54Gx_o4nUZdIzXKUdel_6t4KyXkgwpYgARDQVM9cJNP85Ix1z9JBzRsBXL5E5Y7IawFMtO3PhLzLYFeF9FZlzP-HdsYTqKoWdEjL9obCJ9f6d3mWL3YuJK7T4eGrvFFEL36_csFVyq8Sf5Y6vDgPiwWUf6m3t_3MdG56hhn3TwRYJ1RZujRQHLBYegqcJCM8sZQFxy7Gq0IvdtviPCAXavAKwP2_IKMWwbnZFm1JrhUVPTHhcdI483140auAHqlw5UTcntaM0HRMC5ehAyu9iI3Eq_6o1QKik3Vhv5uGiybdBA8IsZqCaoMpvX70z94RAa8MIJaLHrOmnRXjNWTCp4fg41E-urW93gFBTFPVOsaqU2rRLImoqpoGtU7PofK16qDjLRsOb6DSbEBjBsy1S311JxghztpQF-of-KL1j3-S; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 22-Jan-2025 22:01:41 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 24-Jan-2017 22:01:41 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.14.1422223301442912; path=/; expires=Tue, 17-Jan-45 22:01:41 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3311912276; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1422223301434867; path=/; expires=Tue, 17-Jan-45 22:01:41 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Sun, 25-Jan-2015 22:31:41 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-01-25 16:59 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=3MG3FKAMPVFNA&tax=0.00&address_street=Ostrava%0D%0APoruba&payment_date=14%3A01%3A26+Jan+25%2C+2015+PST&payment_status=Completed&charset=windows-1252&address_zip=70800&first_name=LUD%1AK&mc_fee=0.63&address_country_code=CZ&address_name=LUD%1AK+MAREK&notify_version=3.8&custom=&payer_status=unverified&business=sharifeliasian%40hotmail.com&address_country=Czech+Republic&address_city=Ostrava&quantity=1&verify_sign=Ap0TlumVsEjiMiLKsZewhZcZAKzCAg8We1aeK-33bCG.dzy8dl7Q4Kkm&payer_email=ludek.marek%40seznam.cz&txn_id=6RW48920S2251521M&payment_type=instant&last_name=MAREK&address_state=czech+republic&receiver_email=sharifeliasian%40hotmail.com&payment_fee=0.63&receiver_id=WUZA4XYDVAPQS&txn_type=web_accept&item_name=400-Gold%2FJointek&mc_currency=USD&item_number=400&residence_country=CZ&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=e0ac8376b56ce 
+[2015-01-26 08:35 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 982
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=7GZTP2LZLK9ZQ&tax=0.00&address_street=Guven+Sitesi+5%2F18%0D%0ABahcelievler&payment_date=05%3A37%3A02+Jan+26%2C+2015+PST&payment_status=Completed&charset=windows-1252&address_zip=33000&first_name=Murat&mc_fee=0.63&address_country_code=TR&address_name=Murat+Erki&notify_version=3.8&custom=&payer_status=verified&business=sharifeliasian%40hotmail.com&address_country=Turkey&address_city=Mersin&quantity=1&verify_sign=AhohO4-KgSw3.irCt33CzXOvr3DUAHGy1FM50j68RA07dI5XbvF86FUR&payer_email=murat_erki%40hotmail.com&txn_id=5YN008550S0277806&payment_type=instant&last_name=Erki&address_state=Mersin&receiver_email=sharifeliasian%40hotmail.com&payment_fee=0.63&receiver_id=WUZA4XYDVAPQS&txn_type=web_accept&item_name=400-Gold%2Fmerki&mc_currency=USD&item_number=400&residence_country=TR&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=9bf57922b1ff0
+[2015-01-26 08:35 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Mon, 26 Jan 2015 13:37:18 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=ccFt-2duXrCm_9qiVONFVv-D8FpcVbAbaWnY6MxKaIm23Wtsc1D8OpaI2obKjSMTNDCZROrdlCRXK8rbrkkDOauv8GE_HLp3U9x1YE1jqooGu74eJaAiZ-n44EKqMnfdqZm87HA7n3VhkFfiR55Bo0P2QRDiX4fY6DWLylpSnI3-z-vg7noB4_xCTXq-Q_hEl96Q_hFOlyn1tBOzZxCJPJTyQDpcqTUcF4JcpANq15mvwjY-EvWgZ8HNX16iE7QSJAKg_gN1sdelzqP9LBS0PUwVfoljABPK2YGJ34wp0YN6orvZIvWq7-lZZCH5wNGCAXz6FLirhykBXmQ_D_bg2Ap_BCgb5QIgNF2lvtUpO98gXATrl31RkvmlCQAAh5ZxL4Cuj3NjijtxWDpuGFRiwANepsrCyhz-O_ZUNEJs1xIY1mpWgY8yowpHQ8O; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 23-Jan-2025 13:37:18 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 25-Jan-2017 13:37:18 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.14.1422279437889052; path=/; expires=Wed, 18-Jan-45 13:37:17 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D222545492; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1422279437882245; path=/; expires=Wed, 18-Jan-45 13:37:17 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Mon, 26-Jan-2015 14:07:18 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-01-26 08:35 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=7GZTP2LZLK9ZQ&tax=0.00&address_street=Guven+Sitesi+5%2F18%0D%0ABahcelievler&payment_date=05%3A37%3A02+Jan+26%2C+2015+PST&payment_status=Completed&charset=windows-1252&address_zip=33000&first_name=Murat&mc_fee=0.63&address_country_code=TR&address_name=Murat+Erki&notify_version=3.8&custom=&payer_status=verified&business=sharifeliasian%40hotmail.com&address_country=Turkey&address_city=Mersin&quantity=1&verify_sign=AhohO4-KgSw3.irCt33CzXOvr3DUAHGy1FM50j68RA07dI5XbvF86FUR&payer_email=murat_erki%40hotmail.com&txn_id=5YN008550S0277806&payment_type=instant&last_name=Erki&address_state=Mersin&receiver_email=sharifeliasian%40hotmail.com&payment_fee=0.63&receiver_id=WUZA4XYDVAPQS&txn_type=web_accept&item_name=400-Gold%2Fmerki&mc_currency=USD&item_number=400&residence_country=TR&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=9bf57922b1ff0 
+[2015-01-26 12:22 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 969
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=DNP3USGYZLF46&tax=0.00&address_street=Woodlands&payment_date=09%3A24%3A12+Jan+26%2C+2015+PST&payment_status=Completed&charset=windows-1252&address_zip=&first_name=Aurelijus&mc_fee=0.89&address_country_code=IE&address_name=Aurelijus+Zalenekas&notify_version=3.8&custom=&payer_status=verified&business=sharifeliasian%40hotmail.com&address_country=Ireland&address_city=Navan&quantity=1&verify_sign=Af9Z4D.aPJsZ7TPkaLR-jdC0fj4RA-je2tPTMPIdwsx4.hGIMxrG6MnW&payer_email=zalenekas%40yahoo.com&txn_id=9S656049X61859018&payment_type=instant&last_name=Zalenekas&address_state=Meath&receiver_email=sharifeliasian%40hotmail.com&payment_fee=0.89&receiver_id=WUZA4XYDVAPQS&txn_type=web_accept&item_name=1000-Gold%2FManiaco&mc_currency=USD&item_number=1000&residence_country=IE&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=8748a40f37c3d
+[2015-01-26 12:22 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-2.paypal.com
+Date: Mon, 26 Jan 2015 17:24:41 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=m_iA0kqqZnf9GwGZtQEe52phfbPn8MpsT86a72NJsjEt7xQUxmzSdBiOmJqb5fZBsfWC_MsWZZskFGqQUe01-lyYEcdHT52m-6NvKfRx3Dd3j1atz6aHQ9p0hNLd7ysULUsCoS-YWD7TlqoxjphrWNegmfaTO0-YDOEZ5BFZQHNUoL_80L75crlRvWyHYBoMTs__-5FTkI-MO8ey_rIPGMtxcdOnIDazwrQJVIlh5eNTJUrZGpeI_BdoQFrJ78X_2PVUGOeuB59GieQa5zNU0btEIEtwwD176lsRsXNxqUgW_lG5-c6kWpSWpmRQ2XPmkBPKzxLJqhALpbygRi1qCaemn4SIk9eowrv9FqCWKVWHvbqo1qGhudJ5ZiabrmehvwQuaHhwehnEAOexXnG3yIU4LskYaYNnQqeY2q3xjxd85Qr1lPFTiKBuF9O; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 23-Jan-2025 17:24:41 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 25-Jan-2017 17:24:41 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.134.1422293081536131; path=/; expires=Wed, 18-Jan-45 17:24:41 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1501087316; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.69.1422293081397395; path=/; expires=Wed, 18-Jan-45 17:24:41 GMT
+Set-Cookie: AKDC=slc-b-origin-www-2.paypal.com; expires=Mon, 26-Jan-2015 17:54:41 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-01-26 12:22 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=DNP3USGYZLF46&tax=0.00&address_street=Woodlands&payment_date=09%3A24%3A12+Jan+26%2C+2015+PST&payment_status=Completed&charset=windows-1252&address_zip=&first_name=Aurelijus&mc_fee=0.89&address_country_code=IE&address_name=Aurelijus+Zalenekas&notify_version=3.8&custom=&payer_status=verified&business=sharifeliasian%40hotmail.com&address_country=Ireland&address_city=Navan&quantity=1&verify_sign=Af9Z4D.aPJsZ7TPkaLR-jdC0fj4RA-je2tPTMPIdwsx4.hGIMxrG6MnW&payer_email=zalenekas%40yahoo.com&txn_id=9S656049X61859018&payment_type=instant&last_name=Zalenekas&address_state=Meath&receiver_email=sharifeliasian%40hotmail.com&payment_fee=0.89&receiver_id=WUZA4XYDVAPQS&txn_type=web_accept&item_name=1000-Gold%2FManiaco&mc_currency=USD&item_number=1000&residence_country=IE&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=8748a40f37c3d 
+[2015-01-26 13:43 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1016
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=Y3K5CVZRVSN4J&tax=0.00&address_street=Kidri%1Aevo+naselje+9%2C+9252+Radenci&payment_date=10%3A45%3A18+Jan+26%2C+2015+PST&payment_status=Completed&charset=windows-1252&address_zip=9252&first_name=Filip&mc_fee=0.89&address_country_code=SI&address_name=Filip+Stojanovi%1A&notify_version=3.8&custom=&payer_status=unverified&business=sharifeliasian%40hotmail.com&address_country=Slovenia&address_city=Radenci&quantity=1&verify_sign=A4MOBAY.UskRawdkihu8yVJaSn5nAJYhUFSwiyDq3FZGTZsm1MrwyoSv&payer_email=filipso.stojanovic%40gmail.com&txn_id=31H957271L6033825&payment_type=instant&last_name=Stojanovi%1A&address_state=Slowenien&receiver_email=sharifeliasian%40hotmail.com&payment_fee=0.89&receiver_id=WUZA4XYDVAPQS&txn_type=web_accept&item_name=1000-Gold%2FMadDog&mc_currency=USD&item_number=1000&residence_country=SI&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=c972012c86a7c
+[2015-01-26 13:43 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-1.paypal.com
+Date: Mon, 26 Jan 2015 18:45:33 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=8aC6DH4qs14uPPjIPl7gJIbM1yqwtbGaw96jX9NuPvS5AAqOzpI955DgUOFZmwpYWngqVexqqDBGs7lJ1KOZkkoQ0sO2zNzQXlT8emZ9WCbpGPbqSoqaSetR88W4WQpJeAAbVrMBOpZIKQAE4aJ-9r2mFaqra3kE_ZMPXs68SEoLs5ouI2r9IKUiMvpaYKGheax2s3YX3K_t6gQYoi2afsAtro8GZcKihKvKAavwY4GDueEpP6mg032_FNHKkwSSh3sVukOG383hbSkLB7uf4Ixvqb8ulp6LtkrP6UTUrv5rbxKdQebO2uarYAbBmvZArNGxmFeMzAA0JdHyuENhmMN_jnAjFOGt5GqEA8j42LsXEg3jHCzlv6Lpzn1goR34_csVO1wL2Fm-eSZBPNR1x6EVvXYYbLvBYQFWBh3R7k9313sKQp2RSO_APYW; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 23-Jan-2025 18:45:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 25-Jan-2017 18:45:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.134.1422297933267107; path=/; expires=Wed, 18-Jan-45 18:45:33 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1301005908; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.33.1422297933257100; path=/; expires=Wed, 18-Jan-45 18:45:33 GMT
+Set-Cookie: AKDC=slc-a-origin-www-1.paypal.com; expires=Mon, 26-Jan-2015 19:15:33 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-01-26 13:43 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=Y3K5CVZRVSN4J&tax=0.00&address_street=Kidri%1Aevo+naselje+9%2C+9252+Radenci&payment_date=10%3A45%3A18+Jan+26%2C+2015+PST&payment_status=Completed&charset=windows-1252&address_zip=9252&first_name=Filip&mc_fee=0.89&address_country_code=SI&address_name=Filip+Stojanovi%1A&notify_version=3.8&custom=&payer_status=unverified&business=sharifeliasian%40hotmail.com&address_country=Slovenia&address_city=Radenci&quantity=1&verify_sign=A4MOBAY.UskRawdkihu8yVJaSn5nAJYhUFSwiyDq3FZGTZsm1MrwyoSv&payer_email=filipso.stojanovic%40gmail.com&txn_id=31H957271L6033825&payment_type=instant&last_name=Stojanovi%1A&address_state=Slowenien&receiver_email=sharifeliasian%40hotmail.com&payment_fee=0.89&receiver_id=WUZA4XYDVAPQS&txn_type=web_accept&item_name=1000-Gold%2FMadDog&mc_currency=USD&item_number=1000&residence_country=SI&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=c972012c86a7c 
+[2015-01-26 16:23 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 978
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=YJTKJUVSLNLAE&tax=0.00&address_street=martinez+oviol+11&payment_date=13%3A25%3A29+Jan+26%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=28021&first_name=cristian+marcel&mc_fee=0.96&address_country_code=ES&address_name=cristian+marcel+muntean&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Spain&address_city=madrid&quantity=1&verify_sign=ALBX6sXFbUZiKZF-c0flDsY0ItRhArrKphcSlCjpgRtz20NuuD.GqpbP&payer_email=pim.pam22%40yahoo.es&txn_id=65S14595X2329291P&payment_type=instant&last_name=muntean&address_state=Madrid&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2Fcristy19&mc_currency=USD&item_number=1000&residence_country=ES&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=3b0135e832cb8
+[2015-01-26 16:23 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Mon, 26 Jan 2015 21:25:42 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=kPfFSKaQ7YXEzhUPkKQu73gAgiD-wuzNP2d0f8vg-tfuHUtB1i5-s61Aw2iCp1hazgfkCT17g1VMbMoTfuMrc0cuXcuXw1rUwQKXVzWEx-OQiHnHK5KvqTcYkEmV2OPRNrRHrw4fckG0iP4Ruwwy88z6lq1aR_e_stcNsbDH0T4tQTToSlQIHIcW4_LYjFqxMWNIsPM4qiREqtnMg2W-KuRfvX7FmRpu-WQyJLGtfAw_VlEZ7NxHc_Eltxm4Ne1qXuxkUZmY1DtRSem_m80x10ZAFXKt5UvM0cwVxdENQp8lH1isZXwD4rT-TVqIWGgPZN4W7dUytTvMSfalaHi2Dz1xkka567VfKw7W_G2djY-iMtKyBeC4JizPNx5ysq0pezHvKHNXlFsoDLb0dmNC1LVBLKHjChy80TSe7yszQAb94HNZgitk9Gy8SmK; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 23-Jan-2025 21:25:42 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 25-Jan-2017 21:25:42 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.137.1422307542159320; path=/; expires=Wed, 18-Jan-45 21:25:42 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3601909332; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.56.1422307542147115; path=/; expires=Wed, 18-Jan-45 21:25:42 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Mon, 26-Jan-2015 21:55:42 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-01-26 16:23 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=YJTKJUVSLNLAE&tax=0.00&address_street=martinez+oviol+11&payment_date=13%3A25%3A29+Jan+26%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=28021&first_name=cristian+marcel&mc_fee=0.96&address_country_code=ES&address_name=cristian+marcel+muntean&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Spain&address_city=madrid&quantity=1&verify_sign=ALBX6sXFbUZiKZF-c0flDsY0ItRhArrKphcSlCjpgRtz20NuuD.GqpbP&payer_email=pim.pam22%40yahoo.es&txn_id=65S14595X2329291P&payment_type=instant&last_name=muntean&address_state=Madrid&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2Fcristy19&mc_currency=USD&item_number=1000&residence_country=ES&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=3b0135e832cb8 
+[2015-01-26 16:35 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 977
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=YJTKJUVSLNLAE&tax=0.00&address_street=martinez+oviol+11&payment_date=13%3A36%3A46+Jan+26%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=28021&first_name=cristian+marcel&mc_fee=0.96&address_country_code=ES&address_name=cristian+marcel+muntean&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Spain&address_city=madrid&quantity=1&verify_sign=AYE-TxSdSwBUHKWfSMP0XqzIUNDoANNsM3l92g4GwIE5M8zdZu6FgB1h&payer_email=pim.pam22%40yahoo.es&txn_id=4BV67097D7701252W&payment_type=instant&last_name=muntean&address_state=Madrid&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2Fcristy19&mc_currency=USD&item_number=1000&residence_country=ES&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=c92d1d35c619
+[2015-01-26 16:35 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Mon, 26 Jan 2015 21:37:03 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=arV17t8a967nhpU37lCJ04bC332w0RQ4yCcb4KAQkZ5PWQ6h320I6Liubu77myronnw7bEHYkM9DRzEipoXq76y5dVDvIIVQDfcg_L2RkSkpBG-hzKsHFpUb1oob5sZfhct-HKDRSEhE-NhxbGmirPwKaGQRIa_ly3OGJ2krZ3q1sN90IC4DeAqVbpYJD2CnWSdjwx8KsYp3Hi-dQSW91rd_-Dj8cXiGiEOv4LzjOWfFXYeafzcMeWk5Q7cFmiIQd8Vuchnpg3IvbHnHV5T0q-NmE_lbi9-LbM5fZm-v-V1HZh9v5oMpF0Acjz79gthnFV6ahTV0BkAUOcu5aXGwqjeZLjsQLqiy6w-1C7sFXXjvAfaOceHkpsBrkAjRXOu60a7yC8I5x8voMU3kfyh-zg_0ul8KW1ZL3dhHsBmQe3dojmwZOmkWBt5N-V4; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 23-Jan-2025 21:37:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 25-Jan-2017 21:37:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.134.1422308222957473; path=/; expires=Wed, 18-Jan-45 21:37:02 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2125710932; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.70.1422308222948125; path=/; expires=Wed, 18-Jan-45 21:37:02 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Mon, 26-Jan-2015 22:07:03 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-01-26 16:35 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=YJTKJUVSLNLAE&tax=0.00&address_street=martinez+oviol+11&payment_date=13%3A36%3A46+Jan+26%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=28021&first_name=cristian+marcel&mc_fee=0.96&address_country_code=ES&address_name=cristian+marcel+muntean&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Spain&address_city=madrid&quantity=1&verify_sign=AYE-TxSdSwBUHKWfSMP0XqzIUNDoANNsM3l92g4GwIE5M8zdZu6FgB1h&payer_email=pim.pam22%40yahoo.es&txn_id=4BV67097D7701252W&payment_type=instant&last_name=muntean&address_state=Madrid&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2Fcristy19&mc_currency=USD&item_number=1000&residence_country=ES&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=c92d1d35c619 
+[2015-01-27 05:17 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 973
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=SZGQMUVESYTV6&tax=0.00&address_street=lunca+145&payment_date=02%3A19%3A35+Jan+27%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=240067&first_name=Roman&mc_fee=0.96&address_country_code=RO&address_name=Roman+DRAGOS+GABRIEL&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Romania&address_city=bujoreni&quantity=1&verify_sign=A33oJYvYip0QzW6tAUAnIWVtjzHOAV.a-xmukhKVeRzAy2rCH1MhIlNh&payer_email=dragos.gabriel%40gmail.com&txn_id=2NE538624N150512V&payment_type=instant&last_name=DRAGOS+GABRIEL&address_state=V%1Alcea&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2Frdg1&mc_currency=USD&item_number=1000&residence_country=RO&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=f3f204803e226
+[2015-01-27 05:17 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Tue, 27 Jan 2015 10:19:48 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=r3NR3gtl0NlIuoX635kWTzPAbUtutpB5djYMAy7u1alUCkwWpsUgYmhHHx7N9pHycgO6fpwMSVPMNKCqfRGncWMNMsLsEavJ6mz3zSPZ6UQbEYSTt3nTpMksU24p7wfVSzYuEqTU6BAs9fm8LRpUu4kndw0lPQmfq_U6cLYdAYlC0tRmUDD9lg7SVOZH5Vfg5YyYNXHc_oaBO1BgP6IAr8VZurHLSwoiSr1hAzm0P_LZ-wXAiGUpOdmId3By0UJl-fvMDwzKFbU8XCO0EiG7LmtQiQdMPZRu7_IaI8QxagBtM3KXq_loJl6Lb4r8U4dtc4C9av0hJ7_XfKKFBmf9GkQudg42QywhhMy00ostqU5n1Lso8vY9KY39Oobw8tphFAYcOBXAtWhdhuCC3T_RtCuVSzquwbjXBD2NoUs7za6G0T9JjOF2xOiigs8; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 24-Jan-2025 10:19:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 26-Jan-2017 10:19:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.134.1422353988046955; path=/; expires=Thu, 19-Jan-45 10:19:48 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1147586388; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.62.1422353988036255; path=/; expires=Thu, 19-Jan-45 10:19:48 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Tue, 27-Jan-2015 10:49:48 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-01-27 05:17 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=SZGQMUVESYTV6&tax=0.00&address_street=lunca+145&payment_date=02%3A19%3A35+Jan+27%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=240067&first_name=Roman&mc_fee=0.96&address_country_code=RO&address_name=Roman+DRAGOS+GABRIEL&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Romania&address_city=bujoreni&quantity=1&verify_sign=A33oJYvYip0QzW6tAUAnIWVtjzHOAV.a-xmukhKVeRzAy2rCH1MhIlNh&payer_email=dragos.gabriel%40gmail.com&txn_id=2NE538624N150512V&payment_type=instant&last_name=DRAGOS+GABRIEL&address_state=V%1Alcea&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2Frdg1&mc_currency=USD&item_number=1000&residence_country=RO&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=f3f204803e226 
+[2015-01-27 08:44 America/New_York] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1022
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Ineligible&address_status=unconfirmed&payer_id=W8UB2F85EFQU2&tax=0.00&address_street=A+601%2C+Samudra+Complex%2C+Navrangpura&payment_date=05%3A46%3A20+Jan+27%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=380009&first_name=Poussin&mc_fee=0.96&address_country_code=IN&address_name=Poussin+Punnose&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=India&address_city=Ahmedabad&quantity=1&verify_sign=AHt1zhqIhOnDbLEsIeNuqeqQW4ZoAQei3TURYrFSO2Y2AscSeOi4xGHA&payer_email=poussin.p%40gmail.com&txn_id=59D66794XW3011641&payment_type=instant&last_name=Punnose&address_state=Gujarat&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2Fpoussin&mc_currency=USD&item_number=1000&residence_country=IN&receipt_id=0423-1506-2453-4832&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=6b357990cd2cb
+[2015-01-27 08:44 America/New_York] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-1.paypal.com
+Date: Tue, 27 Jan 2015 13:46:35 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=WPNjevBsVRKR_zC7115MfmLYxrVe9-7X9nW0DLW_tKlX4KHKP6Ljxe1PKeCh-wEYKgDbjgTQizp78L-yx3V2kSs5JfvCGGikfe15f7kqsuw36CHhbhHif3JQaoiiOoniKXlmheADXnsiDgf4y-rmITT-5ZYpMDd1XKItzz1AIEHKD3Z2xb01-u6DMdTuD2Byrr48vLYdeyUjlsp5xSyrCZFq2WBsW094Kkt_ctc5s3qngZn2hKUJQv3wTPcnC1d6Vm-ncagG-E5IwfX7XR1rch5OuGjkmmIhPL6rMboTZIKXO3DDh_8TlhN7stLlmLQkljGWPfSXZ0VbyW9_reM86-wgOuOBHYuuVLclVDKgL__Q_88Qf1hYMNjnfCpIUB_uHGUJD0X8JGOGEy-jKJB4uD4FH6y740_omY4nc0Et5D7CVRwqYkD3t6aDcNS; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 24-Jan-2025 13:46:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 26-Jan-2017 13:46:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.134.1422366394616421; path=/; expires=Thu, 19-Jan-45 13:46:34 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3130443604; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.43.1422366394606145; path=/; expires=Thu, 19-Jan-45 13:46:34 GMT
+Set-Cookie: AKDC=slc-b-origin-www-1.paypal.com; expires=Tue, 27-Jan-2015 14:16:35 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-01-27 08:44 America/New_York] Verified IPN: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Ineligible&address_status=unconfirmed&payer_id=W8UB2F85EFQU2&tax=0.00&address_street=A+601%2C+Samudra+Complex%2C+Navrangpura&payment_date=05%3A46%3A20+Jan+27%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=380009&first_name=Poussin&mc_fee=0.96&address_country_code=IN&address_name=Poussin+Punnose&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=India&address_city=Ahmedabad&quantity=1&verify_sign=AHt1zhqIhOnDbLEsIeNuqeqQW4ZoAQei3TURYrFSO2Y2AscSeOi4xGHA&payer_email=poussin.p%40gmail.com&txn_id=59D66794XW3011641&payment_type=instant&last_name=Punnose&address_state=Gujarat&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2Fpoussin&mc_currency=USD&item_number=1000&residence_country=IN&receipt_id=0423-1506-2453-4832&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=6b357990cd2cb 
+[2015-02-05 17:59 Asia/Tehran] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 969
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=M62VCGNT2AQ74&tax=0.00&address_street=Vladimira+Filakovca+11&payment_date=06%3A28%3A50+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=10000&first_name=Luka&mc_fee=0.61&address_country_code=HR&address_name=Luka+Jakovljevi%A1%A1&notify_version=3.8&custom=&payer_status=verified&business=travianxshop%40gmail.com&address_country=Croatia&address_city=Zagreb&quantity=1&verify_sign=Ai3mTvRHsKr736-FaGlL9P1oTbCCAokEID0CEBfmIQnyvM7aIHhKHUTN&payer_email=lu-kica%40hotmail.com&txn_id=2UL42978CU865291A&payment_type=instant&last_name=Jakovljevi%A1%A1&address_state=&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2FGabor66&mc_currency=USD&item_number=400&residence_country=HR&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=1004c80b55e65
+[2015-02-05 17:59 Asia/Tehran] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-1.paypal.com
+Date: Thu, 05 Feb 2015 14:29:14 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=z7WuXNFjl3-uXNe32cDRNS_XO33gKi36pdQy48GJzKacb7UBnFccKggoTZ_vdY6mYoPr7AZXN2F77MCL1JFewBs2nhIlIE4iNsLe7B0oi5zlwVY7KLYwGjSSRRpac-dJC3VgJQNv1WQcpXqG28a9cvvdOhzZfZSO7wA649DfXPoe_Cu75KratKaBEcHTRGTXEDPkL56_6sOTWI9IGDTx90Tc4q_vgu-FTJd62_cKYyMW7gJZVwG_B2ffTVbqRd3Y0I35Kmw-FCDEqGmB5-4NA8WrIOvweyqwcelihqnxkm6ufirSyt2DeaGorRFbIJf0o4RgC3YTkjP7LbA7HUJnL3SBvAdPqaXZvgc7niID6PZ91dMQxFEBB13OKejhbsCeIYGaZnH-aH51I9XE7mxO8Ju10-_ICJMa4f8te4E07K9Nz48AyoiwtlUX0-0; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 02-Feb-2025 14:29:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 04-Feb-2017 14:29:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.137.1423146553750816; path=/; expires=Sat, 28-Jan-45 14:29:13 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D964612948; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.51.1423146553740066; path=/; expires=Sat, 28-Jan-45 14:29:13 GMT
+Set-Cookie: AKDC=slc-a-origin-www-1.paypal.com; expires=Thu, 05-Feb-2015 14:59:14 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-02-05 17:59 Asia/Tehran] Verified IPN: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=M62VCGNT2AQ74&tax=0.00&address_street=Vladimira+Filakovca+11&payment_date=06%3A28%3A50+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=10000&first_name=Luka&mc_fee=0.61&address_country_code=HR&address_name=Luka+Jakovljevi%A1%A1&notify_version=3.8&custom=&payer_status=verified&business=travianxshop%40gmail.com&address_country=Croatia&address_city=Zagreb&quantity=1&verify_sign=Ai3mTvRHsKr736-FaGlL9P1oTbCCAokEID0CEBfmIQnyvM7aIHhKHUTN&payer_email=lu-kica%40hotmail.com&txn_id=2UL42978CU865291A&payment_type=instant&last_name=Jakovljevi%A1%A1&address_state=&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2FGabor66&mc_currency=USD&item_number=400&residence_country=HR&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=1004c80b55e65 
+[2015-02-05 19:21 Asia/Tehran] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 990
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=5YVYAHP9BYYCS&tax=0.00&address_street=Heapstreet+5%0D%0Ajakaranda+w%2Fs+7&payment_date=07%3A50%3A52+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=9585&first_name=Werner&mc_fee=0.96&address_country_code=ZA&address_name=Werner+Welthagen&notify_version=3.8&custom=&payer_status=verified&business=travianxshop%40gmail.com&address_country=South+Africa&address_city=Parys&quantity=1&verify_sign=AjtyW5xvgS0SotbOIqRzBjS083gZAqo00pGhA6khRwP1dCt-8QboIdLo&payer_email=wwelthagen2%40gmail.com&txn_id=2CR205207P4008841&payment_type=instant&last_name=Welthagen&address_state=Freestate&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2FPeeteet&mc_currency=USD&item_number=1000&residence_country=ZA&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=b6c47240b477c
+[2015-02-05 19:21 Asia/Tehran] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Thu, 05 Feb 2015 15:51:11 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=oIIoATmYkzUpg5M8ws_niBPep6MevnC6iBjW5ouVj_Kkr_1-m02LpjeXqPY3wsmJnb9REwEnFOPqzdN_nB5TJgvbopG_aX52fFCD3M5JyVN2gD949QEfR36kR7bxBdT4Gl5h4pyZHbITdd0eOG57IL0IY-V__w5OkzDhEGNxp3Q3wmUrcpfLghgKfj6DoTjIWViTCL_DMd7qXFLMYzaoNFfHx-RAIPD98YkW58lCGRjgiMU7gEEGRDrD4W5nNN88fwifoCVCmpx-FE7YOGIuOTokq3Y0HGC01P1mmUGzE-_k70KbB1ME_S6oPDIJiZNuUm73TY6QqVNrVk4Dp-lEKnlNN2VhexS-9QkluvH5xiP-S0H7p2Nclf-shOp7LkSqFbM_K2KiKWHSAm46QrXIbHSiOTQmDagw6t1K3qjqxIBrODev7u_LkNeQQv8; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 02-Feb-2025 15:51:11 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 04-Feb-2017 15:51:11 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.14.1423151470808706; path=/; expires=Sat, 28-Jan-45 15:51:10 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1855050580; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1423151470802384; path=/; expires=Sat, 28-Jan-45 15:51:10 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Thu, 05-Feb-2015 16:21:11 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-02-05 19:21 Asia/Tehran] Verified IPN: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=5YVYAHP9BYYCS&tax=0.00&address_street=Heapstreet+5%0D%0Ajakaranda+w%2Fs+7&payment_date=07%3A50%3A52+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=9585&first_name=Werner&mc_fee=0.96&address_country_code=ZA&address_name=Werner+Welthagen&notify_version=3.8&custom=&payer_status=verified&business=travianxshop%40gmail.com&address_country=South+Africa&address_city=Parys&quantity=1&verify_sign=AjtyW5xvgS0SotbOIqRzBjS083gZAqo00pGhA6khRwP1dCt-8QboIdLo&payer_email=wwelthagen2%40gmail.com&txn_id=2CR205207P4008841&payment_type=instant&last_name=Welthagen&address_state=Freestate&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2FPeeteet&mc_currency=USD&item_number=1000&residence_country=ZA&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=b6c47240b477c 
+[2015-02-05 19:38 Asia/Tehran] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 959
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=8ZD3GFMS4BYL6&tax=0.00&address_street=str.putna+nr+5&payment_date=08%3A08%3A18+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=400842&first_name=Nicoara&mc_fee=0.96&address_country_code=RO&address_name=Nicoara+Dan&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Romania&address_city=cluj-napoca&quantity=1&verify_sign=ArKWfvDGCIIrDBNp5GhgBizreRUZA6-SuQsTHklYESgdKCNeMbgqgbI9&payer_email=dann_nicoara%40yahoo.com&txn_id=85Y45250380960233&payment_type=instant&last_name=Dan&address_state=cluj&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2FSictir&mc_currency=USD&item_number=1000&residence_country=RO&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=fbcd29acc94d8
+[2015-02-05 19:38 Asia/Tehran] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Thu, 05 Feb 2015 16:08:52 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=Lsd_uy0WUGrYpbtpPXleC06xvMxyahRTdv2IcQ9ckPCnjRi3elGUuuioXZ2HD-1qA4gUjgRZHxr7ZvW62Q4FhiQ4uaAABpMc5wf5Cpn0ZldWtIaeaTDq8jQQC2ByrrPQFNkW908IMpIftWligacEy0rMJ4ScZHUqhntVh1NpGdt29TAj5SVvwtj-pY7C5x0GmWQz0Q4uiPmsWU60gvCkz6Wf7iQa2XqLLb6OgE36RbKMbu7mO9B1w1eO6WlfZCGPNVrVxmhE6Fm_mH1VH8gD5LtVRyVAf-HC5miwy9Dh7qQR8I_FNZG60ESxvz64sswDioPFz6DMjw_jgIL0orM4G5YoriuLQzWcRaLz5OghwoOXx37Apxj62UCqOBbso54kvetrtN3asklMP8qwc79RKD7TureewC_GkXk7g94XNCYsXGJ_SQ0fENjrbhW; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 02-Feb-2025 16:08:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 04-Feb-2017 16:08:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.134.1423152532391335; path=/; expires=Sat, 28-Jan-45 16:08:52 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2492846932; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.64.1423152532380870; path=/; expires=Sat, 28-Jan-45 16:08:52 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Thu, 05-Feb-2015 16:38:52 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-02-05 19:38 Asia/Tehran] Verified IPN: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=8ZD3GFMS4BYL6&tax=0.00&address_street=str.putna+nr+5&payment_date=08%3A08%3A18+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=400842&first_name=Nicoara&mc_fee=0.96&address_country_code=RO&address_name=Nicoara+Dan&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Romania&address_city=cluj-napoca&quantity=1&verify_sign=ArKWfvDGCIIrDBNp5GhgBizreRUZA6-SuQsTHklYESgdKCNeMbgqgbI9&payer_email=dann_nicoara%40yahoo.com&txn_id=85Y45250380960233&payment_type=instant&last_name=Dan&address_state=cluj&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2FSictir&mc_currency=USD&item_number=1000&residence_country=RO&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=fbcd29acc94d8 
+[2015-02-05 20:08 Asia/Tehran] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 979
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=8AW9VE7DG2CBC&tax=0.00&address_street=zibuciu+26a&payment_date=08%3A38%3A28+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=37460&first_name=Loreta&mc_fee=0.61&address_country_code=LT&address_name=Loreta+Dambrauskiene&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Lithuania&address_city=Panevezys&quantity=1&verify_sign=AxXxQoI6F8WcgUc.brRNTGc1zOGIAFUNkon-yJWAEl1DpEvR6kty1NuY&payer_email=ltdambrauskiene%40gmail.com&txn_id=6SJ81990TW173261V&payment_type=instant&last_name=Dambrauskiene&address_state=Lithuania&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2Fignelisnzn&mc_currency=USD&item_number=400&residence_country=LT&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=c3f78304276
+[2015-02-05 20:08 Asia/Tehran] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-1.paypal.com
+Date: Thu, 05 Feb 2015 16:38:46 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=WhPEi1G7Eib05iOY3M-j-f99aFEhjvxt60PYYl9XLSfcRYr4mY_4i9bz6WXiQWqSSw5Pt7AB6ynNfL-99fFi2EibiMaj_rNLsZFovjdq0z2lcJH78JOkw_tkof4T7UHJUH7vxdFsPn_SR2taSSghaJlvb3q_2Gh_zUvT_lhUcR90fKkTkC-VNbkzHQxyAv711ZaetgcOycbQsay8oMX9sDBg6xpl-fjW6p0WNSf6SU7jGHaaOI5WBHsPY93uYSIurhH-4tiQYsupv9r-m-_fTE4kQaiKM6jM7zroEmd-KbRj5_e7vMTl04_CWesr1jiKbWEC1NXuzik36HgAhOpa_kfI-CE0DcD4HBn_FeEFwnbVRm4qAQfpLAWYTGzvvquzHwxS94NtqO8t-qIYSvxcaTP0MviHVkpL6EMkAdbQo6Alw0HxpZ2PCvMJUeC; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 02-Feb-2025 16:38:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 04-Feb-2017 16:38:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.137.1423154325973286; path=/; expires=Sat, 28-Jan-45 16:38:45 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2510082900; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.32.1423154325961785; path=/; expires=Sat, 28-Jan-45 16:38:45 GMT
+Set-Cookie: AKDC=slc-a-origin-www-1.paypal.com; expires=Thu, 05-Feb-2015 17:08:46 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-02-05 20:08 Asia/Tehran] Verified IPN: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=8AW9VE7DG2CBC&tax=0.00&address_street=zibuciu+26a&payment_date=08%3A38%3A28+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=37460&first_name=Loreta&mc_fee=0.61&address_country_code=LT&address_name=Loreta+Dambrauskiene&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Lithuania&address_city=Panevezys&quantity=1&verify_sign=AxXxQoI6F8WcgUc.brRNTGc1zOGIAFUNkon-yJWAEl1DpEvR6kty1NuY&payer_email=ltdambrauskiene%40gmail.com&txn_id=6SJ81990TW173261V&payment_type=instant&last_name=Dambrauskiene&address_state=Lithuania&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2Fignelisnzn&mc_currency=USD&item_number=400&residence_country=LT&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=c3f78304276 
+[2015-02-06 01:54 Asia/Tehran] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 969
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=M62VCGNT2AQ74&tax=0.00&address_street=Vladimira+Filakovca+11&payment_date=14%3A23%3A53+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=10000&first_name=Luka&mc_fee=0.61&address_country_code=HR&address_name=Luka+Jakovljevi%A1%A1&notify_version=3.8&custom=&payer_status=verified&business=travianxshop%40gmail.com&address_country=Croatia&address_city=Zagreb&quantity=1&verify_sign=ApTLg-6D5T3E21o.iDbtdGuetLR.AUz75wqhMKgDFB86cJ1QAeHTw6k5&payer_email=lu-kica%40hotmail.com&txn_id=4UM17201XD004242H&payment_type=instant&last_name=Jakovljevi%A1%A1&address_state=&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2FGabor66&mc_currency=USD&item_number=400&residence_country=HR&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=7745456be8f13
+[2015-02-06 01:54 Asia/Tehran] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Thu, 05 Feb 2015 22:24:05 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=4lrpxhESC_y6lZc6N4osFu1xH9gyZNL2LyM2YsT-H-T9KC6WI-7steFbulUyA6gru9vaztLFo0UDkL81v0MhRuw0TlrYkHS5e2xerfafihNWrkzzzrTBURJSvpz5sBH7BphRWq6-jCvjd0HnqO1K0NoonvRihGyFdwo0eGqgXNsO3_YaN0XNRNiPEpLQm3_VYB7JmknobNkuZ0anGf0mNdUDItNDij8AmRebWFeOYO6OGWx5a70JaiCNsATU4qVsX-8-Q46nB-VBB7UCGkuZSJdxQEu8_V0qQhYAUcT2kwxqnPXXdQT_QRDLxrEg8XcJdokYU1UXDt056d9FRGW83Zy7BF0R0X_VI9_5T9a2zUadNPZTH2NV0soK0KcvF-H_I17o0_G05Py5IaYyfCH7U2UKbR8kmtQCUeXmpZVurNZHYqepxkd9H1qiOa0; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 02-Feb-2025 22:24:05 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 04-Feb-2017 22:24:05 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.14.1423175044745476; path=/; expires=Sat, 28-Jan-45 22:24:04 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2230178644; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1423175044739799; path=/; expires=Sat, 28-Jan-45 22:24:04 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Thu, 05-Feb-2015 22:54:05 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-02-06 01:54 Asia/Tehran] Verified IPN: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=M62VCGNT2AQ74&tax=0.00&address_street=Vladimira+Filakovca+11&payment_date=14%3A23%3A53+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=10000&first_name=Luka&mc_fee=0.61&address_country_code=HR&address_name=Luka+Jakovljevi%A1%A1&notify_version=3.8&custom=&payer_status=verified&business=travianxshop%40gmail.com&address_country=Croatia&address_city=Zagreb&quantity=1&verify_sign=ApTLg-6D5T3E21o.iDbtdGuetLR.AUz75wqhMKgDFB86cJ1QAeHTw6k5&payer_email=lu-kica%40hotmail.com&txn_id=4UM17201XD004242H&payment_type=instant&last_name=Jakovljevi%A1%A1&address_state=&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2FGabor66&mc_currency=USD&item_number=400&residence_country=HR&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=7745456be8f13 
+[2015-02-06 02:17 Asia/Tehran] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 955
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=8ZD3GFMS4BYL6&tax=0.00&address_street=str.putna+nr+5&payment_date=14%3A47%3A09+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=400842&first_name=Nicoara&mc_fee=0.61&address_country_code=RO&address_name=Nicoara+Dan&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Romania&address_city=cluj-napoca&quantity=1&verify_sign=AHpD4eALFxXk3E5QFo4mszWb5p19A51BjPcgRLIRDDxDHzWXlnxbfwBg&payer_email=dann_nicoara%40yahoo.com&txn_id=20920893Y4283945J&payment_type=instant&last_name=Dan&address_state=cluj&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2FSictir&mc_currency=USD&item_number=400&residence_country=RO&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=2aeb42c475975
+[2015-02-06 02:17 Asia/Tehran] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Thu, 05 Feb 2015 22:47:23 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=VclAnqUCGtDEJh7ynyOOWw_3_ZTpLGRn3-YGecKxTkjlbOmR_zkRx4Bex_TY5mpfoxCDfXInb_51ff22jKBuQvkDYJznZVgyIFNefTnNJYkpnAmLd2YpBllaCNlpDK-hYOn5ZvG52isdS4_oH2N8DNGD1BPgB6NBoZ9iJ4OYyJEQkAwck_CsXgIJzH2FIn_kpH6dTX63ooi6N6OsR3PgT1staWuUSZz8CmzovB2gqk1kvhJD-M4m4DUu1Gi2gvPHZBG0nGb3RcObA_uwJKbWHzb5f2zwe8vtEjpfnwz4BhfRH1A8c0OuFv2wRvBq06CYh4cdmjk4mfvJa4JZRH3j0IVbeAQs1hqwXdncHeOg7nST0efeVJxjlk7s246qTaUvvS_bDRW2sqOTMeaUyjbGufWAKek3NvX6W0shSuWk-l13cWe1pZWRNYW30W4; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sun, 02-Feb-2025 22:47:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sat, 04-Feb-2017 22:47:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.137.1423176442994813; path=/; expires=Sat, 28-Jan-45 22:47:22 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D4210217812; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.63.1423176442983872; path=/; expires=Sat, 28-Jan-45 22:47:22 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Thu, 05-Feb-2015 23:17:23 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-02-06 02:17 Asia/Tehran] Verified IPN: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=8ZD3GFMS4BYL6&tax=0.00&address_street=str.putna+nr+5&payment_date=14%3A47%3A09+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=400842&first_name=Nicoara&mc_fee=0.61&address_country_code=RO&address_name=Nicoara+Dan&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Romania&address_city=cluj-napoca&quantity=1&verify_sign=AHpD4eALFxXk3E5QFo4mszWb5p19A51BjPcgRLIRDDxDHzWXlnxbfwBg&payer_email=dann_nicoara%40yahoo.com&txn_id=20920893Y4283945J&payment_type=instant&last_name=Dan&address_state=cluj&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2FSictir&mc_currency=USD&item_number=400&residence_country=RO&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=2aeb42c475975 
+[2015-02-06 04:03 Asia/Tehran] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1040
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Ineligible&address_status=unconfirmed&payer_id=W2DV227VKYY5E&tax=0.00&address_street=bengiler+mah.6284+sk.no%3A3+seferihisar&payment_date=16%3A33%3A21+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=35100&first_name=o%A1%A1uz&mc_fee=0.61&address_country_code=TR&address_name=o%A1%A1uz+y%1Ar%A8%B9k&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Turkey&address_city=%A1%A1ZM%A1%A1R&quantity=1&verify_sign=A6dW-lujrxwAuhhdm.5k0x4a8NxjAJAhpzec3nHgWy3ccKzZkLVwf1U9&payer_email=orhanylmaz310%40gmail.com&txn_id=0KN83976HW547120T&payment_type=instant&last_name=y%1Ar%A8%B9k&address_state=&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2Fxdondadikkkk&mc_currency=USD&item_number=400&residence_country=TR&receipt_id=4136-8445-8941-1842&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=23543303d5185
+[2015-02-06 04:03 Asia/Tehran] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Fri, 06 Feb 2015 00:33:39 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=zVzg8D3hbPkRas6E_cf23vOyStW-SM0rWURh7I8KRLdMtAxvd5x1nPvXW5HRndjp1AxrwHNfVuz8vZJ7dX0EyIOPthcRWLMezEDLvGFxlEVtUUsHg9XZI-uSGTiXcnbPHSkcMdjjnj9nie9dOqlEHs-a2ZWA1SxDsXfH19qqrIB91Xh0C49Am5_0KOd98mEP8SjMSfk-qMtMvya8X58jrDw5sCYVzqTn1f_Bb0xu86OSmURM9KSPVzgbH6XLx9eDilp1OAYEIiXmSOr1tYiwvu8EiSJ7D8M6jPZLKAsNCUkLPH1cDQsiHK-KxAtQSjw2OePbYZxolLXH-ndGWXjeNN-g8lbARpVZ6QTddWW98fFJLucFX7eLXZ4dSWieaPr2eQDppNwVX05m7mcfJKyw2tq9E5G5aJ-sXTNXDGec1XWtzTFCMavLQk9cl14; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 03-Feb-2025 00:33:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 05-Feb-2017 00:33:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.14.1423182818586283; path=/; expires=Sun, 29-Jan-45 00:33:38 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3792426068; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1423182818579423; path=/; expires=Sun, 29-Jan-45 00:33:38 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Fri, 06-Feb-2015 01:03:39 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-02-06 04:03 Asia/Tehran] Verified IPN: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Ineligible&address_status=unconfirmed&payer_id=W2DV227VKYY5E&tax=0.00&address_street=bengiler+mah.6284+sk.no%3A3+seferihisar&payment_date=16%3A33%3A21+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=35100&first_name=o%A1%A1uz&mc_fee=0.61&address_country_code=TR&address_name=o%A1%A1uz+y%1Ar%A8%B9k&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Turkey&address_city=%A1%A1ZM%A1%A1R&quantity=1&verify_sign=A6dW-lujrxwAuhhdm.5k0x4a8NxjAJAhpzec3nHgWy3ccKzZkLVwf1U9&payer_email=orhanylmaz310%40gmail.com&txn_id=0KN83976HW547120T&payment_type=instant&last_name=y%1Ar%A8%B9k&address_state=&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2Fxdondadikkkk&mc_currency=USD&item_number=400&residence_country=TR&receipt_id=4136-8445-8941-1842&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=23543303d5185 
+[2015-02-06 06:48 Asia/Tehran] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 990
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=5YVYAHP9BYYCS&tax=0.00&address_street=Heapstreet+5%0D%0Ajakaranda+w%2Fs+7&payment_date=19%3A18%3A33+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=9585&first_name=Werner&mc_fee=0.96&address_country_code=ZA&address_name=Werner+Welthagen&notify_version=3.8&custom=&payer_status=verified&business=travianxshop%40gmail.com&address_country=South+Africa&address_city=Parys&quantity=1&verify_sign=AicIXeZULBeG2rbGTHu9OS.rTD00AzNcUPJecHrOloFFZdIVO58ENjsY&payer_email=wwelthagen2%40gmail.com&txn_id=4K655694AV180050T&payment_type=instant&last_name=Welthagen&address_state=Freestate&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2FPeeteet&mc_currency=USD&item_number=1000&residence_country=ZA&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=11af40ff15c4b
+[2015-02-06 06:48 Asia/Tehran] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Fri, 06 Feb 2015 03:18:46 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=htir-D9NCm334GqhGYs0UmIpWWNsIsrErlvF0Ji5WLTaik-0u5LBxjlKeTXdVIzj_o5bWBBkLjDy3xKKmeWr-YN9qjF5aDCrn_xHMOnor0QpxP8gD1DWwqzNgCuXkHRUt_I_7xxphFiYAYvHOyhZRDn0OP4KAv3TOP6mzwmP-pUO5lAVhUzqeQjGI2NLPI50g2u5j88Szga9qo-eMANA6IAaf_wzqFaWIfJ9hWg7vXWUt_dDL5qjp2goYpI_VE22YrLmWOSwX7tsBaYQ5-aR2yTNQg0ELqiPCbOefe_GAPScuXgGCT2IRZ8_h5KnxnZUQ1xpl5xba8CQxw_CAYvQ0AunjD3hKu6x4fd7eT2cyXMpsrgdYKfuVJDeyUW04McVft63kJKjfCi-fIIy4ErNBlkmMxrCDWfTXAIk8PGgBBTeM_ALOtFqr4jereO; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 03-Feb-2025 03:18:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 05-Feb-2017 03:18:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.14.1423192725996536; path=/; expires=Sun, 29-Jan-45 03:18:45 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2503136340; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1423192725990047; path=/; expires=Sun, 29-Jan-45 03:18:45 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Fri, 06-Feb-2015 03:48:46 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-02-06 06:48 Asia/Tehran] Verified IPN: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=5YVYAHP9BYYCS&tax=0.00&address_street=Heapstreet+5%0D%0Ajakaranda+w%2Fs+7&payment_date=19%3A18%3A33+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=9585&first_name=Werner&mc_fee=0.96&address_country_code=ZA&address_name=Werner+Welthagen&notify_version=3.8&custom=&payer_status=verified&business=travianxshop%40gmail.com&address_country=South+Africa&address_city=Parys&quantity=1&verify_sign=AicIXeZULBeG2rbGTHu9OS.rTD00AzNcUPJecHrOloFFZdIVO58ENjsY&payer_email=wwelthagen2%40gmail.com&txn_id=4K655694AV180050T&payment_type=instant&last_name=Welthagen&address_state=Freestate&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2FPeeteet&mc_currency=USD&item_number=1000&residence_country=ZA&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=11af40ff15c4b 
+[2015-02-06 10:20 Asia/Tehran] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1049
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=9TT6LBVLNP8AC&tax=0.00&address_street=Fevzi+%1Aakmak+Mah.Y%A1%A1ld%A1%A1r%A1%A1m+Beyaz%A1%A1t+Sk.No%3A52+K%3A3+D%3A3+Bal%1Aova&payment_date=22%3A50%3A18+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=35330&first_name=O%A1%A1uz&mc_fee=0.61&address_country_code=TR&address_name=O%A1%A1uz+Y%1Ar%A8%B9k&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Turkey&address_city=%A1%A1ZM%A1%A1R&quantity=1&verify_sign=AEt5HbhQteojilsERcyXZUiQzEA5AozLirSpCMOoO--QoPYbRm2Ex4EA&payer_email=palers%40mynet.com&txn_id=88D93686RY316583F&payment_type=instant&last_name=Y%1Ar%A8%B9k&address_state=&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2Fxdondadikkkk&mc_currency=USD&item_number=400&residence_country=TR&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=2146abb1dba7d
+[2015-02-06 10:20 Asia/Tehran] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-2.paypal.com
+Date: Fri, 06 Feb 2015 06:50:30 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=G3Ab8EBqugcGMAe3_4O3H_fI3Vp3MQp8FIQIQhEI_c0FCQTbZgMG3tsGdgW8uXSb6rzIkzhFwUiyRLXSD6HNsoCisA79ESVh9NW9yX3dxexFKUi7ujn-Un6yQd7hPxhtyBGFZdTJ5tjeW4Tgc2x4ZsTBEBF_dHQH9JE5HI2gtwY9FAMhq_mPtbiDWHKF9AN48vefbbepxp2woNVSeFL40ArCB7oR7TdKww59DjbTRGmMcfAUPOfefrwiC80j9Xaa0IdsqTAqTrRIGvGGslhKetStmMmxSp-9fov_umWU4Rx9Qq9QTV-DwqJ-RjqYumu1FebuLBOylir6GCIpouC8NlfrZMCzG5QQ-bvXNYEa9Q7ttbUpsfE1kmzvN1Ab3ZnCzNIc25thsnIWj0iIxl0AMfeoK2vGMB0TdhJUa1Lc-td-nEGGHMPcrSfmFWS; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 03-Feb-2025 06:50:30 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 05-Feb-2017 06:50:30 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.134.1423205430311179; path=/; expires=Sun, 29-Jan-45 06:50:30 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D912577620; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.58.1423205430299634; path=/; expires=Sun, 29-Jan-45 06:50:30 GMT
+Set-Cookie: AKDC=slc-b-origin-www-2.paypal.com; expires=Fri, 06-Feb-2015 07:20:30 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-02-06 10:20 Asia/Tehran] Verified IPN: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=9TT6LBVLNP8AC&tax=0.00&address_street=Fevzi+%1Aakmak+Mah.Y%A1%A1ld%A1%A1r%A1%A1m+Beyaz%A1%A1t+Sk.No%3A52+K%3A3+D%3A3+Bal%1Aova&payment_date=22%3A50%3A18+Feb+05%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=35330&first_name=O%A1%A1uz&mc_fee=0.61&address_country_code=TR&address_name=O%A1%A1uz+Y%1Ar%A8%B9k&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Turkey&address_city=%A1%A1ZM%A1%A1R&quantity=1&verify_sign=AEt5HbhQteojilsERcyXZUiQzEA5AozLirSpCMOoO--QoPYbRm2Ex4EA&payer_email=palers%40mynet.com&txn_id=88D93686RY316583F&payment_type=instant&last_name=Y%1Ar%A8%B9k&address_state=&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2Fxdondadikkkk&mc_currency=USD&item_number=400&residence_country=TR&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=2146abb1dba7d 
+[2015-02-06 16:27 Asia/Tehran] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 986
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=5YVYAHP9BYYCS&tax=0.00&address_street=Heapstreet+5%0D%0Ajakaranda+w%2Fs+7&payment_date=04%3A57%3A19+Feb+06%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=9585&first_name=Werner&mc_fee=0.61&address_country_code=ZA&address_name=Werner+Welthagen&notify_version=3.8&custom=&payer_status=verified&business=travianxshop%40gmail.com&address_country=South+Africa&address_city=Parys&quantity=1&verify_sign=AZswr0ouYMPwIzrDAExT7AiiPOlJAT.D7Mxuds7CdF.j29FkKlRkgKzS&payer_email=wwelthagen2%40gmail.com&txn_id=28X158294K5219223&payment_type=instant&last_name=Welthagen&address_state=Freestate&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2FPeeteet&mc_currency=USD&item_number=400&residence_country=ZA&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=d4f1b7862f25c
+[2015-02-06 16:27 Asia/Tehran] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-1.paypal.com
+Date: Fri, 06 Feb 2015 12:57:32 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=yxroItS6LToEIBvkPMI4sCa7vTIIfQyIY19aURSpq3tSwFouTiCpidkVltGolxYXwyLzmLPuwu02JB0Hoy7nlV-5RO3XHdFXMf_VmnuJAaEf_dIkYPuIT2K83zAkRHv0HoAA4m97ZjEexmTVP40DG2TFORXifpDUATT_bu6MpoLons4aMszI9duO2NcGNB-7h1v8lj7Z_3c-0V7ZOWBdHNWLhyab25fbHpl4DyHh1nyCuMawp8Lwbh4bKICZjh72k-Mhg4cRlaij5FKqzAauqjD-PTrANX6z2ktNyFhZRW6hhh5bCodcvyez-ILartCSwR6i_W2czpLTftH6c_jDW4znSaiEoONycFZtj4wcuVMoJTKLTkPumOxmaSL8prv-c1nbxMlLJQNEb5n9EUW1jP78G_RZgVtLXgZ88ZVrO_3azhCC0m7NulvksNK; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 03-Feb-2025 12:57:32 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 05-Feb-2017 12:57:32 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.134.1423227452160587; path=/; expires=Sun, 29-Jan-45 12:57:32 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1018877012; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.46.1423227452147364; path=/; expires=Sun, 29-Jan-45 12:57:32 GMT
+Set-Cookie: AKDC=slc-a-origin-www-1.paypal.com; expires=Fri, 06-Feb-2015 13:27:32 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-02-06 16:27 Asia/Tehran] Verified IPN: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=5YVYAHP9BYYCS&tax=0.00&address_street=Heapstreet+5%0D%0Ajakaranda+w%2Fs+7&payment_date=04%3A57%3A19+Feb+06%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=9585&first_name=Werner&mc_fee=0.61&address_country_code=ZA&address_name=Werner+Welthagen&notify_version=3.8&custom=&payer_status=verified&business=travianxshop%40gmail.com&address_country=South+Africa&address_city=Parys&quantity=1&verify_sign=AZswr0ouYMPwIzrDAExT7AiiPOlJAT.D7Mxuds7CdF.j29FkKlRkgKzS&payer_email=wwelthagen2%40gmail.com&txn_id=28X158294K5219223&payment_type=instant&last_name=Welthagen&address_state=Freestate&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2FPeeteet&mc_currency=USD&item_number=400&residence_country=ZA&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=d4f1b7862f25c 
+[2015-02-06 20:01 Asia/Tehran] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 959
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=8ZD3GFMS4BYL6&tax=0.00&address_street=str.putna+nr+5&payment_date=08%3A30%3A45+Feb+06%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=400842&first_name=Nicoara&mc_fee=0.96&address_country_code=RO&address_name=Nicoara+Dan&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Romania&address_city=cluj-napoca&quantity=1&verify_sign=AvBKEIS9SRXXEVvdgaO8yCS9vRG-AnOZ.PReQORGi6COuytjdPPMSXgv&payer_email=dann_nicoara%40yahoo.com&txn_id=1G615293257197407&payment_type=instant&last_name=Dan&address_state=cluj&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2FSictir&mc_currency=USD&item_number=1000&residence_country=RO&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=fdb0d69526579
+[2015-02-06 20:01 Asia/Tehran] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-1.paypal.com
+Date: Fri, 06 Feb 2015 16:31:14 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=OE4oj-ety_ITrTdMvk87DlT_p8Psa5Ypu4-cEQwUMqK7IV7xSJYD8GB4Aby1S9dHxdt6Ma59iB4-lpeLOe3gmKWGUIPQA5xAJsTsVE9rb2qNKaLzbFmFX0442cUs3amXJ1SHL-G4PR57b-XoEgEm3l-HYy0Bl94hjsNaIgFNB5dS8xaROSawudguN9-zVXxfqPvRrz7jvnLyGVfAjJ6Ed9KIAKmqAZLiau5_bor-R4L4ofz7l5J0eNUBnU6--GBQxuhEeYZUGeOBI-H8QIc8wP6K3V1OkrYIlYP3rVmme0pwHC8eAXRhJApRywj58JJ3HDRXrVr03fFGK52y_S7aMqhXgj1QonLlgDdFafyMiUAVstbu6ZAnLZR5wDDUtGfMDgMGSrfln5n0yAfklMvy55EZurr0eNPsboS-RlBvvIvVnl7t7WRY8diFhem; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 03-Feb-2025 16:31:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 05-Feb-2017 16:31:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.134.1423240274083577; path=/; expires=Sun, 29-Jan-45 16:31:14 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1391252564; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.33.1423240274073170; path=/; expires=Sun, 29-Jan-45 16:31:14 GMT
+Set-Cookie: AKDC=slc-b-origin-www-1.paypal.com; expires=Fri, 06-Feb-2015 17:01:14 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-02-06 20:01 Asia/Tehran] Verified IPN: cmd=_notify-validate&mc_gross=15.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=8ZD3GFMS4BYL6&tax=0.00&address_street=str.putna+nr+5&payment_date=08%3A30%3A45+Feb+06%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=400842&first_name=Nicoara&mc_fee=0.96&address_country_code=RO&address_name=Nicoara+Dan&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Romania&address_city=cluj-napoca&quantity=1&verify_sign=AvBKEIS9SRXXEVvdgaO8yCS9vRG-AnOZ.PReQORGi6COuytjdPPMSXgv&payer_email=dann_nicoara%40yahoo.com&txn_id=1G615293257197407&payment_type=instant&last_name=Dan&address_state=cluj&receiver_email=travianxshop%40gmail.com&payment_fee=0.96&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=1000-Gold%2FSictir&mc_currency=USD&item_number=1000&residence_country=RO&handling_amount=0.00&transaction_subject=&payment_gross=15.00&shipping=0.00&ipn_track_id=fdb0d69526579 
+[2015-02-07 10:56 Asia/Tehran] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 952
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=TBLLZLLMNMMDA&tax=0.00&address_street=1800+East+Orangeburg+Ave&payment_date=23%3A26%3A11+Feb+06%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=95355&first_name=Vy&mc_fee=0.61&address_country_code=US&address_name=Vy+Luong&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=United+States&address_city=Modesto&quantity=1&verify_sign=AAjgpFMc22TbxGEPhBkTdDCfIdQ2AKZn4B.gVLPb-wF5FiUBGHoWJ8wu&payer_email=curop_95%40yahoo.com&txn_id=2UD64989RP674052G&payment_type=instant&last_name=Luong&address_state=CA&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2Faabbcc&mc_currency=USD&item_number=400&residence_country=US&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=b50f7cd81edbd
+[2015-02-07 10:56 Asia/Tehran] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Sat, 07 Feb 2015 07:26:20 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=wDTD_vIvbh0ZSt_koXBktl56jdaZ35dHbkjgXBBsNGJR-Z2JMXmrXB-9AL8ZauQW9UelLUgXfN7z7TjJBCkltdYEZ39nWjYU-6QF_Onr_loxQHyAIGiaJi5d8irH76lqautcaBUFSyxvGNDbhqJTVdcGd4JjKTmFyuJeFJa6GSOhBbu760KF8Pcfux7EFjw65hiLZUPL7_Gmm1EQISxaKegTxWBNTwi4j0t7CQREFxziNoZYUUXqLY6IySuPAQ8eHCHs_rQfAlJFThHiCbd1m8JdxmzxzfJG_fikH0rwDqGRQVvnihBxQfLY0sRjgzbO-JuwJK_wFn5YAQC8m8jyumlJeNNYEmAPbuXjqQ1DlDfQ4-on8AEt2rqyftvsEVW620WKbWMB52ZA2WLUkPGBrRGsX7Qv27mkDGFVEECO_7r0WOH8NUXJPtegLEm; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 04-Feb-2025 07:26:20 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 06-Feb-2017 07:26:20 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.137.1423293980351289; path=/; expires=Mon, 30-Jan-45 07:26:20 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D482268500; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.66.1423293980339479; path=/; expires=Mon, 30-Jan-45 07:26:20 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Sat, 07-Feb-2015 07:56:20 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-02-07 10:56 Asia/Tehran] Verified IPN: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=TBLLZLLMNMMDA&tax=0.00&address_street=1800+East+Orangeburg+Ave&payment_date=23%3A26%3A11+Feb+06%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=95355&first_name=Vy&mc_fee=0.61&address_country_code=US&address_name=Vy+Luong&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=United+States&address_city=Modesto&quantity=1&verify_sign=AAjgpFMc22TbxGEPhBkTdDCfIdQ2AKZn4B.gVLPb-wF5FiUBGHoWJ8wu&payer_email=curop_95%40yahoo.com&txn_id=2UD64989RP674052G&payment_type=instant&last_name=Luong&address_state=CA&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2Faabbcc&mc_currency=USD&item_number=400&residence_country=US&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=b50f7cd81edbd 
+[2015-02-07 18:35 Asia/Tehran] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1049
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=9TT6LBVLNP8AC&tax=0.00&address_street=Fevzi+%1Aakmak+Mah.Y%A1%A1ld%A1%A1r%A1%A1m+Beyaz%A1%A1t+Sk.No%3A52+K%3A3+D%3A3+Bal%1Aova&payment_date=07%3A05%3A35+Feb+07%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=35330&first_name=O%A1%A1uz&mc_fee=0.61&address_country_code=TR&address_name=O%A1%A1uz+Y%1Ar%A8%B9k&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Turkey&address_city=%A1%A1ZM%A1%A1R&quantity=1&verify_sign=A37M4X.R6UkLwlqcIQ1Ys-lSdWh9AFJ9e9DI0qanYGv-28jzDwhzB5Ms&payer_email=palers%40mynet.com&txn_id=2PB25399R5226992X&payment_type=instant&last_name=Y%1Ar%A8%B9k&address_state=&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2Fxdondadikkkk&mc_currency=USD&item_number=400&residence_country=TR&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=f3f852d096035
+[2015-02-07 18:35 Asia/Tehran] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Sat, 07 Feb 2015 15:05:52 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=52fJ4v5EHNuBIW2m0gpruJ2NkWnLLaeQzSxY1FtdIYW_Vvgh6zyWCPk7y4ta1FZxWVk1zLn6WhfEyFQ4VRijeMSGX4Y4mYhYSk5HdUAg_eSWbhYKmF0SkyhaDR4_bph7AbmJtZlcvunWq7zZUf7reonJoOOwU3r8KpisWZvKAwaF1GuctVfmpJxDL9fJwB-7Yzzw_a8YjTB76_HUcdVrdvU1nYucxPlHVmOKcAUZaUVO-GLV8gJirprOLG8faO89n-lWCi_LT0j8h9RDlHihkL7ImzXkInAdgn9ZYAiOsOPexs-9IVMqphYGkLtZkCxU55Xtm_syf2Wg1weFyx8Egox8XxI2HxaoC9GsGfiLRFduRv3C5HiEL8vH9i1E8If9snL6QaItah06ACYgJyD7brzo8O2j0uF4EJDw6t__ImAlPhbBgVszLyGALJC; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 04-Feb-2025 15:05:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 06-Feb-2017 15:05:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.147.1423321551539393; path=/; expires=Mon, 30-Jan-45 15:05:51 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3475625556; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1423321551533765; path=/; expires=Mon, 30-Jan-45 15:05:51 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Sat, 07-Feb-2015 15:35:52 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-02-07 18:35 Asia/Tehran] Verified IPN: cmd=_notify-validate&mc_gross=7.00&protection_eligibility=Eligible&address_status=unconfirmed&payer_id=9TT6LBVLNP8AC&tax=0.00&address_street=Fevzi+%1Aakmak+Mah.Y%A1%A1ld%A1%A1r%A1%A1m+Beyaz%A1%A1t+Sk.No%3A52+K%3A3+D%3A3+Bal%1Aova&payment_date=07%3A05%3A35+Feb+07%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=35330&first_name=O%A1%A1uz&mc_fee=0.61&address_country_code=TR&address_name=O%A1%A1uz+Y%1Ar%A8%B9k&notify_version=3.8&custom=&payer_status=unverified&business=travianxshop%40gmail.com&address_country=Turkey&address_city=%A1%A1ZM%A1%A1R&quantity=1&verify_sign=A37M4X.R6UkLwlqcIQ1Ys-lSdWh9AFJ9e9DI0qanYGv-28jzDwhzB5Ms&payer_email=palers%40mynet.com&txn_id=2PB25399R5226992X&payment_type=instant&last_name=Y%1Ar%A8%B9k&address_state=&receiver_email=travianxshop%40gmail.com&payment_fee=0.61&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=400-Gold%2Fxdondadikkkk&mc_currency=USD&item_number=400&residence_country=TR&handling_amount=0.00&transaction_subject=&payment_gross=7.00&shipping=0.00&ipn_track_id=f3f852d096035 
+[2015-02-08 06:52 Asia/Tehran] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 963
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=82.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=XUVWKU2ZGL8L2&tax=0.00&address_street=Cottage+Street+34&payment_date=19%3A22%3A38+Feb+07%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=07002&first_name=Dawid&mc_fee=3.91&address_country_code=US&address_name=Dawid+Mickiewicz&notify_version=3.8&custom=&payer_status=verified&business=travianxshop%40gmail.com&address_country=United+States&address_city=Bayonne&quantity=1&verify_sign=AFbtoae17G1snrl8ZQGTOr-6vaYpA1uMHnokOC.L62YApzHyAY0NnVMj&payer_email=sett166%40gmail.com&txn_id=7S466708DR476782M&payment_type=instant&last_name=Mickiewicz&address_state=NJ&receiver_email=travianxshop%40gmail.com&payment_fee=3.91&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=7000-Gold%2FDarkjin&mc_currency=USD&item_number=7000&residence_country=US&handling_amount=0.00&transaction_subject=&payment_gross=82.00&shipping=0.00&ipn_track_id=cffb5c68b229c
+[2015-02-08 06:52 Asia/Tehran] HTTP response of validation request: HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Sun, 08 Feb 2015 03:22:52 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=GuE19ECZDwduQK6xBB2HYy4LvbP02g5y-uEdtb7JURSNQABKOQgWEy1Oh1B7-xicRGZjUyxHOOa_R2mMmsKMm6t6Cxh5jTk-qdmBORsNum-AzWOnT8YYr9HL72yv7nk4RzF256Kw-No4olFEsVDgPiE7b8rRQN_YgZac_Hcxq29yp1tsc81vG4d8GtM6NVo_gTgxka0FMy_7fKeJfg_tGpxftOYWjSwMD_ofY-q_fE0rE7_lrp3KxNl6iaSh391d_EqUVu_6LTwajaatbhUxBpfxpS0hxbOIIDz_hH2EGV2-G1GcUNPiDgPppZ8uvmBtsqTQF31XyjbWP7xq1IshfCe8W-dH8MZydX2AMNRDZTEsr2sufjDHGDtwF4KchlbYWhVbc4BnU2ib76r167WC6WS43CePwczJR8AfM-F7b8FRnI8p02yFVaqFY78; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 05-Feb-2025 03:22:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 07-Feb-2017 03:22:51 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.147.1423365771609285; path=/; expires=Tue, 31-Jan-45 03:22:51 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2346112596; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1423365771603152; path=/; expires=Tue, 31-Jan-45 03:22:51 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Sun, 08-Feb-2015 03:52:52 GMT; path=/; secure
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2015-02-08 06:52 Asia/Tehran] Verified IPN: cmd=_notify-validate&mc_gross=82.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=XUVWKU2ZGL8L2&tax=0.00&address_street=Cottage+Street+34&payment_date=19%3A22%3A38+Feb+07%2C+2015+PST&payment_status=Completed&charset=gb2312&address_zip=07002&first_name=Dawid&mc_fee=3.91&address_country_code=US&address_name=Dawid+Mickiewicz&notify_version=3.8&custom=&payer_status=verified&business=travianxshop%40gmail.com&address_country=United+States&address_city=Bayonne&quantity=1&verify_sign=AFbtoae17G1snrl8ZQGTOr-6vaYpA1uMHnokOC.L62YApzHyAY0NnVMj&payer_email=sett166%40gmail.com&txn_id=7S466708DR476782M&payment_type=instant&last_name=Mickiewicz&address_state=NJ&receiver_email=travianxshop%40gmail.com&payment_fee=3.91&receiver_id=YRZK44RCKUB9W&txn_type=web_accept&item_name=7000-Gold%2FDarkjin&mc_currency=USD&item_number=7000&residence_country=US&handling_amount=0.00&transaction_subject=&payment_gross=82.00&shipping=0.00&ipn_track_id=cffb5c68b229c 
