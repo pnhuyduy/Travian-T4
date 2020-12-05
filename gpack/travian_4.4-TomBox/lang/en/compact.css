@@ -28,15 +28,15 @@ div.build .gid16 #raidListSlot div.coordinatesInput input{height:18px;}div.build
 .paymentPopupDialogWrapper .feature{width:510px;min-height:56px;margin:0 auto 10px;border:1px solid #AD9251;background-color:#F8F1D0;position:relative;font-size:12px;}
 .ie6 .paymentPopupDialogWrapper .feature{min-height:56px;height:auto!important;}
 .paymentPopupDialogWrapper .featureImage{width:65px;height:50px;float:right;margin:2px 2px 2px 0;border:1px solid #ad9251;}
-.paymentPopupDialogWrapper .featureContent{float:right;width:427px;margin:0 9px 2px 5px;position:relative;}
+.paymentPopupDialogWrapper .featureContent{float:left;width:427px;margin:0 9px 2px 5px;position:relative;}
 .paymentPopupDialogWrapper .featureInfo .featureText{line-height:14px;}.paymentPopupDialogWrapper .furtherFeatures .featureInfo{border-color:transparent;background:none;margin-bottom:5px;}
 .paymentPopupDialogWrapper .furtherFeatures .featureInfo .featureImage{border:1px solid #AFADA4;}
 .paymentPopupDialogWrapper .featureBooking .featureContent{height:54px;}.paymentPopupDialogWrapper .featureBooking h3{margin:9px 0;font-size:14px;}
 .paymentPopupDialogWrapper .featureBooking .featureRemainingTime{position:absolute;right:0;bottom:5px;}
 .paymentPopupDialogWrapper .featureBooking .renewalActive{color:#228B22;}.paymentPopupDialogWrapper .featureBooking .bonusEndsSoon{color:#DE0000;}
-.paymentPopupDialogWrapper .featureBooking .featureButton{position:absolute;top:5px;left:5px;}
+.paymentPopupDialogWrapper .featureBooking .featureButton{position:absolute;top:5px;right:5px;}
 .ie7 .paymentPopupDialogWrapper .featureBooking .featureButton button{text-align:left;}
-.paymentPopupDialogWrapper .featureBooking .featureDuration,.paymentPopupDialogWrapper .featureBooking .featureRenewal{position:absolute;bottom:5px;left:5px;}
+.paymentPopupDialogWrapper .featureBooking .featureDuration,.paymentPopupDialogWrapper .featureBooking .featureRenewal{position:absolute;bottom:5px;right:5px;}
 .paymentPopupDialogWrapper{width:525px;min-height:400px;margin-top:5px;}.paymentPopupDialogWrapper h3{margin:4px 0;font-size:12px;}
 .paymentPopupDialogWrapper .headlineText{float:right;}.paymentPopupDialogWrapper .goldWrapper{font-size:14px;float:left;font-weight:normal;margin-top:2px;}
 .paymentPopupDialogWrapper .furtherInfos{font-style:italic;}.paymentPopupDialogWrapper .goldButtonWrapper{text-align:center;margin-top:5px;}
@@ -67,7 +67,7 @@ div.build .gid16 #raidListSlot div.coordinatesInput input{height:18px;}div.build
 div#paymentWizard{width:874px;min-height:503px;}div#paymentWizard h4{font-size:13px;}
 div#paymentWizard .header{position:absolute;top:-32px;height:78px;right:0;left:0;margin-left:100px;}
 div#paymentWizard .header ul,div#paymentWizard .header li{list-style-type:none;margin:0;padding:0;}
-div#paymentWizard .header li{float:right;display:block;height:32px;overflow:hidden;position:relative;}
+div#paymentWizard .header li{float:left;display:block;height:32px;overflow:hidden;position:relative;}
 div#paymentWizard .header li.active{height:98px;margin-top:-20px;}div#paymentWizard .header .tabButton{position:relative;min-width:146px;margin-left:5px;height:80px;text-align:center;display:block;}
 div#paymentWizard .header li.active .tabButton{margin-top:20px;}.ie6 div#paymentWizard .header ul{float:left;direction:ltr!important;}
 .ie6 div#paymentWizard .header .tabButton{width:146px;background:#AA9A82;}.ie6 div#paymentWizard .header li.active .tabButton{background:#F7EDC4;}
@@ -88,11 +88,11 @@ div#paymentWizard .header .tabButton.buyGold .tabBtnImg{background-position:righ
 div#paymentWizard .header .tabButton.pros .tabBtnImg{background-position:right -52px;width:42px;}
 div#paymentWizard .header .tabButton.plusSupport .tabBtnImg{background-position:right -122px;}
 div#paymentWizard .header .tabButton.earnGold .tabBtnImg{background-position:right -190px;}
-div#paymentWizard .accountBalance{position:absolute;float:left;height:25px;top:30px;left:0;font-size:14px;}
+div#paymentWizard .accountBalance{position:absolute;float:right;height:25px;top:30px;right:0;font-size:14px;}
 div#paymentWizard .accountBalance span{font-weight:bold;}div#paymentWizard .accountBalance .gold{margin:0 5px 0 2px;}
 div#paymentWizard .contentWrapper{position:relative;margin-top:38px;width:100%;float:left;}
-div#paymentWizard .contentArea{position:relative;float:left;width:594px;min-height:445px;}
-div#paymentWizard .contentWrapper .contentHead{float:right;margin-bottom:10px;}.ie7 div#paymentWizard .contentWrapper .contentHead{margin-top:8px;}
+div#paymentWizard .contentArea{position:relative;float:right;width:594px;min-height:445px;}
+div#paymentWizard .contentWrapper .contentHead{float:left;margin-bottom:10px;}.ie7 div#paymentWizard .contentWrapper .contentHead{margin-top:8px;}
 .ie6 div#paymentWizard{min-height:445px;height:auto!important;height:445px;}div#paymentWizard .infoArea{position:absolute;top:0;bottom:0;right:0;width:269px;}
 div#paymentWizard .infoArea .contentBorder-contents{height:430px;position:relative;}
 div#paymentWizard .paymentWizardDirectionLTR{direction:ltr;text-align:left;}div#paymentWizard .paymentWizardDirectionRTL{direction:rtl;text-align:right;}
@@ -101,25 +101,25 @@ div#paymentWizard .contentBorder-ml,div#paymentWizard .contentBorder-mr{position
 div#paymentWizard .contentBorder-tl,div#paymentWizard .contentBorder-tr,div#paymentWizard .contentBorder-tc{top:0;height:7px;}
 div#paymentWizard .contentBorder-bl,div#paymentWizard .contentBorder-br,div#paymentWizard .contentBorder-bc{bottom:0;height:8px;}
 div#paymentWizard .contentBorder-tl,div#paymentWizard .contentBorder-tr,div#paymentWizard .contentBorder-bl,div#paymentWizard .contentBorder-br,div#paymentWizard .contentBorder-ml,div#paymentWizard .contentBorder-mr{width:7px;}
-div#paymentWizard .contentBorder-tl{right:0;}div#paymentWizard .contentBorder-tr{left:0;background-position:left top;}
+div#paymentWizard .contentBorder-tl{left:0;}div#paymentWizard .contentBorder-tr{right:0;background-position:right top;}
 div#paymentWizard .contentBorder-tc{margin:0 7px;right:0;left:0;background-repeat:repeat-x;background-position:right -19px;}
-div#paymentWizard .contentBorder-bl{right:0;background-position:right bottom;}div#paymentWizard .contentBorder-br{left:0;background-position:left bottom;}
+div#paymentWizard .contentBorder-bl{left:0;background-position:left bottom;}div#paymentWizard .contentBorder-br{right:0;background-position:right bottom;}
 div#paymentWizard .contentBorder-bc{margin:0 7px;right:0;left:0;background-repeat:repeat-x;background-position:right -36px;}
-div#paymentWizard .contentBorder-ml{margin:7px 0 8px 0;top:0;bottom:0;right:0;background-repeat:repeat-y;background-position:right top;}
-div#paymentWizard .contentBorder-mr{margin:7px 0 8px 0;top:0;bottom:0;left:0;background-repeat:repeat-y;background-position:left top;}
+div#paymentWizard .contentBorder-ml{margin:7px 0 8px 0;top:0;bottom:0;left:0;background-repeat:repeat-y;background-position:left top;}
+div#paymentWizard .contentBorder-mr{margin:7px 0 8px 0;top:0;bottom:0;right:0;background-repeat:repeat-y;background-position:right top;}
 div#paymentWizard .contentBorder-contents{margin:10px 10px 8px;}.ie7 div#paymentWizard .contentBorder-contents{padding-top:10px;}
-div#paymentWizard .buyGoldInfoStep{position:relative;width:241px;height:69px;background-image:url(../../img/paymentWizard/infoArrow-ltr.png);background-position:right bottom;color:#666;float:right;margin-top:5px;margin-right:5px;}
+div#paymentWizard .buyGoldInfoStep{position:relative;width:241px;height:69px;background-image:url(../../img/paymentWizard/infoArrow-ltr.png);background-position:left bottom;color:#666;float:left;margin-top:5px;margin-right:5px;}
 div#paymentWizard .buyGoldInfoStep.buyGoldFormStep{display:none;}div#paymentWizard .buyGoldInfoStep.active{background-position:right top;color:#252525;}
-div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepNumber{position:absolute;font-size:50px;font-weight:bold;color:#eae0af;line-height:69px;left:24px;}
-div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepLabel{margin:7px 7px 0 0;font-size:15px;font-weight:bold;}
+div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepNumber{position:absolute;font-size:50px;font-weight:bold;color:#eae0af;line-height:69px;right:24px;}
+div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepLabel{margin:7px 0 0 7px;font-size:15px;font-weight:bold;}
 div#paymentWizard .buyGoldInfoStep .buyGoldLocation{max-width:160px;}.ie7 div#paymentWizard .buyGoldInfoStep .buyGoldLocation{width:expression(this.scrollWidth>"160" ? "160px":"auto");}
-div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepContent{margin:5px 19px 0 0;font-size:14px;white-space:nowrap;overflow:hidden;}
+div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepContent{margin:5px 0 0 19px;font-size:14px;white-space:nowrap;overflow:hidden;}
 div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepFooter{margin:3px 19px 0 0;font-size:13px;}
 div#paymentWizard .buyGoldFooter .footerItem a,div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepFooter a{background-image:url(../../img/pager/next-ltr.png);background-position:right 4px;padding-right:8px;margin-right:10px;}
 div#paymentWizard .infoArea .locationStep{margin-top:3px;}div#paymentWizard .buyGoldFooter{position:absolute;bottom:11px;right:0;left:0;font-size:13px;}
 .ie6 div#paymentWizard .buyGoldFooter{bottom:auto;position:relative;}div#paymentWizard .buyGoldFooter .footNotes{font-style:italic;}
 div#paymentWizard .buyGoldFooter .footerItem{margin-top:10px;margin-right:5px;}div#paymentWizard .header ul,div#paymentWizard .header ul li{direction:ltr!important;}
-.goldProduct,.paymentWizardDirectionLTR .goldProduct{position:relative;float:right;width:136px;height:190px;background-image:url(../../img/paymentWizard/goldProduct-ltr.png);background-position:right top;cursor:pointer;margin-right:6px;margin-top:6px;}
+.goldProduct,.paymentWizardDirectionLTR .goldProduct{position:relative;float:left;width:136px;height:190px;background-image:url(../../img/paymentWizard/goldProduct-ltr.png);background-position:left top;cursor:pointer;margin-top:6px;}
 .paymentWizardDirectionRTL .goldProduct{float:left;background-image:url(../../img/paymentWizard/goldProduct-ltr.png);background-position:left top;}
 .goldProduct:hover,.paymentWizardDirectionLTR .goldProduct:hover{background-position:right center;}
 .goldProduct:active,.paymentWizardDirectionLTR .goldProduct:active{background-position:right bottom;}
