@@ -4,12 +4,12 @@ div.build .gid16 #raidList .village{text-align:right;}div.build .gid16 #raidList
 div.build .gid16 #raidList .checkbox{width:3%;padding-right:0;padding-left:0;}div.build .gid16 #raidList .ew{width:6%;}
 div.build .gid16 #raidList .distance{width:8%;}div.build .gid16 #raidList .troops{width:15%;line-height:20px;}
 div.build .gid16 #raidList .troops .troopIcon{white-space:nowrap;}div.build .gid16 #raidList .lastRaid{width:25%;white-space:nowrap;}
-div.build .gid16 #raidList .action{width:14%;}div.build .gid16 #raidList .raidListSwitchWrapper{width:18px;height:21px;background-image:url(../../img/round/button/buttonSmall-rtl.png);padding:3px 3px;float:left;overflow:hidden;}
+div.build .gid16 #raidList .action{width:14%;}div.build .gid16 #raidList .raidListSwitchWrapper{width:18px;height:21px;background-image:url(../../img/round/button/buttonSmall-ltr.png);padding:3px 3px;float:left;overflow:hidden;}
 div.build .gid16 #raidList .openedClosedSwitch{width:21px;height:21px;}div.build .gid16 #raidList div.raidListTitleButtons .raidListSwitchWrapper,div.build .gid16 #raidList div.raidListTitleButtons #updateRaidList,div.build .gid16 #raidList div.raidListTitleButtons #deleteRaidList{float:left;margin-top:-4px;margin-right:3px;}
 div.build .gid16 #raidList div.markAll{margin:10px 1px 0 0;float:right;}div.build .gid16 #raidList div.addSlot{margin:10px 0 0 5px;float:left;}
 div.build .gid16 #raidList div.addSlot button{float:left;}div.build .gid16 #raidList div.addSlot .raidListSlotCount{margin-top:7px;}
 div.build .gid16 #raidList button img.delete{width:12px;height:13px;background-image:url(../../img/a/delete.gif);right:9px;top:3px;}
-div.build .gid16 #raidList button img.update{width:12px;height:13px;background-image:url(../../img/a/editPencil-rtl.png);right:6px;}
+div.build .gid16 #raidList button img.update{width:12px;height:13px;background-image:url(../../img/a/editPencil-ltr.png);right:6px;}
 .gecko div.build .gid16 #raidList button img.update{right:3px;}.gecko div.build .gid16 #raidList button img.delete{right:5px;}
 div.build .gid16 #raidList .listTitle{font-weight:bold;}div.build .gid16 #raidList #spaceUsed{padding:20px 0 10px;}
 div.build .gid16 #raidList #spaceUsed .boxes{float:right;}div.build .gid16 #raidList #spaceUsed .boxes-contents{padding:8px 20px;}
@@ -71,16 +71,16 @@ div#paymentWizard .header li{float:right;display:block;height:32px;overflow:hidd
 div#paymentWizard .header li.active{height:98px;margin-top:-20px;}div#paymentWizard .header .tabButton{position:relative;min-width:146px;margin-left:5px;height:80px;text-align:center;display:block;}
 div#paymentWizard .header li.active .tabButton{margin-top:20px;}.ie6 div#paymentWizard .header ul{float:left;direction:ltr!important;}
 .ie6 div#paymentWizard .header .tabButton{width:146px;background:#AA9A82;}.ie6 div#paymentWizard .header li.active .tabButton{background:#F7EDC4;}
-div#paymentWizard .header .tabButton .tabBtnBGPart{position:absolute;background-image:url(../../img/paymentWizard/tabsInactive-rtl.png);top:0;right:0;bottom:0;left:0;}
-div#paymentWizard .header .tabButton .tabBtnBGPart.start{background-position:right top;position:absolute;}
-div#paymentWizard .header li.active .tabButton .tabBtnBGPart.start{background-position:right top;position:absolute;}
-div#paymentWizard .header .tabButton .tabBtnBGPart.end{background-position:left bottom;}
+div#paymentWizard .header .tabButton .tabBtnBGPart{position:absolute;background-image:url(../../img/paymentWizard/tabsInactive-ltr.png);top:0;right:0;bottom:0;left:0;}
+div#paymentWizard .header .tabButton .tabBtnBGPart.start{background-position:left top;position:absolute;}
+div#paymentWizard .header li.active .tabButton .tabBtnBGPart.start{background-position:left top;position:absolute;}
+div#paymentWizard .header .tabButton .tabBtnBGPart.end{background-position:right bottom;}
 div#paymentWizard .header .tabButton .tabBtnBGPart.middle{margin:0 10px;background-position:right center;background-repeat:repeat-x;}
 div#paymentWizard .header li.active .tabButton .tabBtnBGPart.middle{margin:0 68px;}
 div#paymentWizard .header .tabButton .text{position:relative;font-weight:bold;font-size:14px;line-height:34px;color:#F9F9F9;overflow:visible;padding-right:9px;padding-left:9px;}
 div#paymentWizard .header .active .tabButton .text{background:none;}div#paymentWizard .header li .tabBorder{background-image:url(../../img/dialogBrown/tc.png);position:absolute;bottom:0;height:5px;right:2px;left:5px;display:block;background-repeat:repeat-x;}
 div#paymentWizard .header li.active .tabBorder{background:none;}div#paymentWizard .header .tabButton .tabBtnImgWrapper{position:relative;}
-div#paymentWizard .header li.active .tabButton .tabBtnBGPart{background-image:url(../../img/paymentWizard/tabsActive-rtl.png);}
+div#paymentWizard .header li.active .tabButton .tabBtnBGPart{background-image:url(../../img/paymentWizard/tabsActive-ltr.png);}
 div#paymentWizard .header li.active .tabButton{height:78px;}div#paymentWizard .header li.active .tabButton .text{color:#323232;}
 div#paymentWizard .header li.active .tabButton .tabBtnImg{position:relative;background-image:url(../../img/paymentWizard/tabsButtonImages-rtl-ignore.png);margin-top:-33px;height:76px;width:107px;}
 .ie6 div#paymentWizard .header li.active .tabButton .tabBtnImg{background-image:url(../../img/paymentWizard/tabsButtonImages-rtl-ignore.gif);}
@@ -96,8 +96,8 @@ div#paymentWizard .contentWrapper .contentHead{float:right;margin-bottom:10px;}.
 .ie6 div#paymentWizard{min-height:445px;height:auto!important;height:445px;}div#paymentWizard .infoArea{position:absolute;top:0;bottom:0;right:0;width:269px;}
 div#paymentWizard .infoArea .contentBorder-contents{height:430px;position:relative;}
 div#paymentWizard .paymentWizardDirectionLTR{direction:ltr;text-align:left;}div#paymentWizard .paymentWizardDirectionRTL{direction:rtl;text-align:right;}
-div#paymentWizard .contentBorder-tl,div#paymentWizard .contentBorder-tr,div#paymentWizard .contentBorder-tc,div#paymentWizard .contentBorder-bl,div#paymentWizard .contentBorder-br,div#paymentWizard .contentBorder-bc{position:absolute;background-image:url(../../img/paymentWizard/contentBorderHorizontalEdge-rtl.png);}
-div#paymentWizard .contentBorder-ml,div#paymentWizard .contentBorder-mr{position:absolute;background-image:url(../../img/paymentWizard/contentBorderVertical-rtl.png);}
+div#paymentWizard .contentBorder-tl,div#paymentWizard .contentBorder-tr,div#paymentWizard .contentBorder-tc,div#paymentWizard .contentBorder-bl,div#paymentWizard .contentBorder-br,div#paymentWizard .contentBorder-bc{position:absolute;background-image:url(../../img/paymentWizard/contentBorderHorizontalEdge-ltr.png);}
+div#paymentWizard .contentBorder-ml,div#paymentWizard .contentBorder-mr{position:absolute;background-image:url(../../img/paymentWizard/contentBorderVertical-ltr.png);}
 div#paymentWizard .contentBorder-tl,div#paymentWizard .contentBorder-tr,div#paymentWizard .contentBorder-tc{top:0;height:7px;}
 div#paymentWizard .contentBorder-bl,div#paymentWizard .contentBorder-br,div#paymentWizard .contentBorder-bc{bottom:0;height:8px;}
 div#paymentWizard .contentBorder-tl,div#paymentWizard .contentBorder-tr,div#paymentWizard .contentBorder-bl,div#paymentWizard .contentBorder-br,div#paymentWizard .contentBorder-ml,div#paymentWizard .contentBorder-mr{width:7px;}
@@ -108,18 +108,18 @@ div#paymentWizard .contentBorder-bc{margin:0 7px;right:0;left:0;background-repea
 div#paymentWizard .contentBorder-ml{margin:7px 0 8px 0;top:0;bottom:0;right:0;background-repeat:repeat-y;background-position:right top;}
 div#paymentWizard .contentBorder-mr{margin:7px 0 8px 0;top:0;bottom:0;left:0;background-repeat:repeat-y;background-position:left top;}
 div#paymentWizard .contentBorder-contents{margin:10px 10px 8px;}.ie7 div#paymentWizard .contentBorder-contents{padding-top:10px;}
-div#paymentWizard .buyGoldInfoStep{position:relative;width:241px;height:69px;background-image:url(../../img/paymentWizard/infoArrow-rtl.png);background-position:right bottom;color:#666;float:right;margin-top:5px;margin-right:5px;}
+div#paymentWizard .buyGoldInfoStep{position:relative;width:241px;height:69px;background-image:url(../../img/paymentWizard/infoArrow-ltr.png);background-position:right bottom;color:#666;float:right;margin-top:5px;margin-right:5px;}
 div#paymentWizard .buyGoldInfoStep.buyGoldFormStep{display:none;}div#paymentWizard .buyGoldInfoStep.active{background-position:right top;color:#252525;}
 div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepNumber{position:absolute;font-size:50px;font-weight:bold;color:#eae0af;line-height:69px;left:24px;}
 div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepLabel{margin:7px 7px 0 0;font-size:15px;font-weight:bold;}
 div#paymentWizard .buyGoldInfoStep .buyGoldLocation{max-width:160px;}.ie7 div#paymentWizard .buyGoldInfoStep .buyGoldLocation{width:expression(this.scrollWidth>"160" ? "160px":"auto");}
 div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepContent{margin:5px 19px 0 0;font-size:14px;white-space:nowrap;overflow:hidden;}
 div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepFooter{margin:3px 19px 0 0;font-size:13px;}
-div#paymentWizard .buyGoldFooter .footerItem a,div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepFooter a{background-image:url(../../img/pager/next-rtl.png);background-position:right 4px;padding-right:8px;margin-right:10px;}
+div#paymentWizard .buyGoldFooter .footerItem a,div#paymentWizard .buyGoldInfoStep .buyGoldInfoStepFooter a{background-image:url(../../img/pager/next-ltr.png);background-position:right 4px;padding-right:8px;margin-right:10px;}
 div#paymentWizard .infoArea .locationStep{margin-top:3px;}div#paymentWizard .buyGoldFooter{position:absolute;bottom:11px;right:0;left:0;font-size:13px;}
 .ie6 div#paymentWizard .buyGoldFooter{bottom:auto;position:relative;}div#paymentWizard .buyGoldFooter .footNotes{font-style:italic;}
-div#paymentWizard .buyGoldFooter .footerItem{margin-top:10px;margin-right:5px;}div#paymentWizard .header ul,div#paymentWizard .header ul li{direction:rtl!important;}
-.goldProduct,.paymentWizardDirectionLTR .goldProduct{position:relative;float:right;width:136px;height:190px;background-image:url(../../img/paymentWizard/goldProduct-rtl.png);background-position:right top;cursor:pointer;margin-right:6px;margin-top:6px;}
+div#paymentWizard .buyGoldFooter .footerItem{margin-top:10px;margin-right:5px;}div#paymentWizard .header ul,div#paymentWizard .header ul li{direction:ltr!important;}
+.goldProduct,.paymentWizardDirectionLTR .goldProduct{position:relative;float:right;width:136px;height:190px;background-image:url(../../img/paymentWizard/goldProduct-ltr.png);background-position:right top;cursor:pointer;margin-right:6px;margin-top:6px;}
 .paymentWizardDirectionRTL .goldProduct{float:left;background-image:url(../../img/paymentWizard/goldProduct-ltr.png);background-position:left top;}
 .goldProduct:hover,.paymentWizardDirectionLTR .goldProduct:hover{background-position:right center;}
 .goldProduct:active,.paymentWizardDirectionLTR .goldProduct:active{background-position:right bottom;}
@@ -142,8 +142,8 @@ div#paymentWizard .paymentWizardDirectionRTL .providerLink .selectedGoldPacket{r
 div#paymentWizard .providerLink .selectedGoldPacket img{margin-top:19px;}div#paymentWizard .providerLink.inactive .selectedGoldPacket{background:none;}
 div#paymentWizard .paymentWizardDirectionLTR .providerLink .boxes.paymentProvider .boxes-tl,div#paymentWizard .paymentWizardDirectionLTR .providerLink .boxes.paymentProvider .boxes-tr,div#paymentWizard .paymentWizardDirectionLTR .providerLink .boxes.paymentProvider .boxes-tc,div#paymentWizard .paymentWizardDirectionLTR .providerLink .boxes.paymentProvider .boxes-bl,div#paymentWizard .paymentWizardDirectionLTR .providerLink .boxes.paymentProvider .boxes-br,div#paymentWizard .paymentWizardDirectionLTR .providerLink .boxes.paymentProvider .boxes-bc{background-image:url(../../img/paymentWizard/providerBorders-ltr.png);}
 div#paymentWizard .paymentWizardDirectionLTR .providerLink .boxes.paymentProvider .boxes-ml,div#paymentWizard .paymentWizardDirectionLTR .providerLink .boxes.paymentProvider .boxes-mr{background-image:url(../../img/paymentWizard/providerBordersVerticalActive-ltr.png);}
-div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-tl,div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-tr,div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-tc,div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-bl,div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-br,div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-bc{background-image:url(../../img/paymentWizard/providerBorders-rtl.png);}
-div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-ml,div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-mr{background-image:url(../../img/paymentWizard/providerBordersVerticalActive-rtl.png);}
+div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-tl,div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-tr,div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-tc,div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-bl,div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-br,div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-bc{background-image:url(../../img/paymentWizard/providerBorders-ltr.png);}
+div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-ml,div#paymentWizard .paymentWizardDirectionRTL .providerLink .boxes.paymentProvider .boxes-mr{background-image:url(../../img/paymentWizard/providerBordersVerticalActive-ltr.png);}
 div#paymentWizard .providerLink .boxes.paymentProvider .boxes-tl{background-position:left -84px;}
 div#paymentWizard .providerLink .boxes.paymentProvider .boxes-tr{background-position:right -84px;}
 div#paymentWizard .providerLink .boxes.paymentProvider .boxes-tc{background-position:left -126px;background-repeat:repeat-x;}
@@ -154,7 +154,7 @@ div#paymentWizard .providerLink .boxes.paymentProvider .boxes-ml{background-posi
 div#paymentWizard .providerLink .boxes.paymentProvider .boxes-mr{background-position:right 0;}
 div#paymentWizard .providerLink .boxes.paymentProvider .boxes-mc{background:none;background-color:#FBF8EC;}
 div#paymentWizard .paymentWizardDirectionLTR .providerLink:hover .boxes.paymentProvider .boxes-ml,div#paymentWizard .paymentWizardDirectionLTR .providerLink:hover .boxes.paymentProvider .boxes-mr{background-image:url(../../img/paymentWizard/providerBordersVerticalHover-ltr.png);}
-div#paymentWizard .paymentWizardDirectionRTL .providerLink:hover .boxes.paymentProvider .boxes-ml,div#paymentWizard .paymentWizardDirectionRTL .providerLink:hover .boxes.paymentProvider .boxes-mr{background-image:url(../../img/paymentWizard/providerBordersVerticalHover-rtl.png);}
+div#paymentWizard .paymentWizardDirectionRTL .providerLink:hover .boxes.paymentProvider .boxes-ml,div#paymentWizard .paymentWizardDirectionRTL .providerLink:hover .boxes.paymentProvider .boxes-mr{background-image:url(../../img/paymentWizard/providerBordersVerticalHover-ltr.png);}
 div#paymentWizard .providerLink:hover .boxes.paymentProvider .boxes-tl{background-position:left 0;}
 div#paymentWizard .providerLink:hover .boxes.paymentProvider .boxes-tr{background-position:right 0;}
 div#paymentWizard .providerLink:hover .boxes.paymentProvider .boxes-tc{background-position:left -42px;background-repeat:repeat-x;}
@@ -163,7 +163,7 @@ div#paymentWizard .providerLink:hover .boxes.paymentProvider .boxes-br{backgroun
 div#paymentWizard .providerLink:hover .boxes.paymentProvider .boxes-bc{background-position:left -63px;background-repeat:repeat-x;}
 div#paymentWizard .providerLink:hover .boxes.paymentProvider .boxes-mc{background:none;background-color:#F8F1D0;}
 div#paymentWizard .paymentWizardDirectionLTR .providerLink:active .boxes.paymentProvider .boxes-ml,div#paymentWizard .paymentWizardDirectionLTR .providerLink:active .boxes.paymentProvider .boxes-mr{background-image:url(../../img/paymentWizard/providerBordersVerticalDown-ltr.png);}
-div#paymentWizard .paymentWizardDirectionRTL .providerLink:active .boxes.paymentProvider .boxes-ml,div#paymentWizard .paymentWizardDirectionRTL .providerLink:active .boxes.paymentProvider .boxes-mr{background-image:url(../../img/paymentWizard/providerBordersVerticalDown-rtl.png);}
+div#paymentWizard .paymentWizardDirectionRTL .providerLink:active .boxes.paymentProvider .boxes-ml,div#paymentWizard .paymentWizardDirectionRTL .providerLink:active .boxes.paymentProvider .boxes-mr{background-image:url(../../img/paymentWizard/providerBordersVerticalDown-ltr.png);}
 div#paymentWizard .providerLink:active .boxes.paymentProvider .boxes-tl{background-position:left -168px;}
 div#paymentWizard .providerLink:active .boxes.paymentProvider .boxes-tr{background-position:right -168px;}
 div#paymentWizard .providerLink:active .boxes.paymentProvider .boxes-tc{background-position:left -210px;background-repeat:repeat-x;}
@@ -172,7 +172,7 @@ div#paymentWizard .providerLink:active .boxes.paymentProvider .boxes-br{backgrou
 div#paymentWizard .providerLink:active .boxes.paymentProvider .boxes-bc{background-position:left -231px;background-repeat:repeat-x;}
 div#paymentWizard .providerLink:active .boxes.paymentProvider .boxes-mc{background:none;background-color:#EDE5BE;}
 div#paymentWizard .paymentWizardDirectionLTR .providerLink.inactive .boxes.paymentProvider .boxes-ml,div#paymentWizard .paymentWizardDirectionLTR .providerLink.inactive .boxes.paymentProvider .boxes-mr{background-image:url(../../img/paymentWizard/providerBordersVerticalInactive-ltr.png);}
-div#paymentWizard .paymentWizardDirectionRTL .providerLink.inactive .boxes.paymentProvider .boxes-ml,div#paymentWizard .paymentWizardDirectionRTL .providerLink.inactive .boxes.paymentProvider .boxes-mr{background-image:url(../../img/paymentWizard/providerBordersVerticalInactive-rtl.png);}
+div#paymentWizard .paymentWizardDirectionRTL .providerLink.inactive .boxes.paymentProvider .boxes-ml,div#paymentWizard .paymentWizardDirectionRTL .providerLink.inactive .boxes.paymentProvider .boxes-mr{background-image:url(../../img/paymentWizard/providerBordersVerticalInactive-ltr.png);}
 div#paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-tl,div#paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-tl{background-position:left -252px;}
 div#paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-tr{background-position:right -252px;}
 div#paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-tc{background-position:left -294px;background-repeat:repeat-x;}
@@ -181,7 +181,7 @@ div#paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-br{backgr
 div#paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-bc{background-position:left -315px;background-repeat:repeat-x;}
 div#paymentWizard .providerLink.inactive .boxes.paymentProvider .boxes-mc{background:none;background-color:#D9D5C1;}
 div#paymentWizard.plusSupport,div#paymentWizard.earnGold{font-size:13px;}div#paymentWizard div.boxes-contents{margin-top:10px;}
-div#paymentWizard.earnGold .contentArea .earnGoldPage{display:none;}div#paymentWizard.plusSupport .infoArea img.mentor{position:absolute;right:-6px;bottom:0;width:258px;height:342px;background-image:url(../../img/paymentWizard/mentorBig-rtl.png);}
+div#paymentWizard.earnGold .contentArea .earnGoldPage{display:none;}div#paymentWizard.plusSupport .infoArea img.mentor{position:absolute;right:-6px;bottom:0;width:258px;height:342px;background-image:url(../../img/paymentWizard/mentorBig-ltr.png);}
 div#paymentWizard.plusSupport .infoArea img.mentor.germanen{background-position:0 -354px;}
 div#paymentWizard.plusSupport .infoArea img.mentor.gallier{background-position:0 -707px;}
 div#paymentWizard.plusSupport .contentArea .plusSupportFooter,div#paymentWizard.earnGold .infoArea .footer{position:absolute;bottom:15px;right:10px;left:10px;}
@@ -200,9 +200,9 @@ div#paymentWizard.earnGold .contentArea .buttonLine .earnGoldSendMailSubmit{floa
 div#paymentWizard.earnGold .contentArea .messageLine{font-weight:bold;}div#paymentWizard.earnGold .contentArea .messageLine .green{color:#99C01A;}
 div#paymentWizard .contentArea .roundedContentBox{margin:1px 10px;width:559px;}div#paymentWizard .contentArea .roundedContentBox .boxContent{margin:0 14px;}
 div#paymentWizard .contentArea .roundedContentBox .footer{margin:5px 14px 10px 14px;}
-div#paymentWizard .contentArea .roundedContentBox .footer a,div#paymentWizard.earnGold .infoArea .footer a,div#paymentWizard.earnGold .contentArea a{background-image:url(../../img/pager/next-rtl.png);background-position:right 4px;padding-right:8px;}
-div#paymentWizard.plusSupport .roundedContentBox .boxes-tl,div#paymentWizard.plusSupport .roundedContentBox .boxes-tr,div#paymentWizard.plusSupport .roundedContentBox .boxes-tc,div#paymentWizard.plusSupport .roundedContentBox .boxes-bl,div#paymentWizard.plusSupport .roundedContentBox .boxes-br,div#paymentWizard.plusSupport .roundedContentBox .boxes-bc,div#paymentWizard.earnGold .roundedContentBox .boxes-tl,div#paymentWizard.earnGold .roundedContentBox .boxes-tr,div#paymentWizard.earnGold .roundedContentBox .boxes-tc,div#paymentWizard.earnGold .roundedContentBox .boxes-bl,div#paymentWizard.earnGold .roundedContentBox .boxes-br,div#paymentWizard.earnGold .roundedContentBox .boxes-bc{background-image:url(../../img/paymentWizard/providerBorders-rtl.png);}
-div#paymentWizard.plusSupport .roundedContentBox .boxes-ml,div#paymentWizard.plusSupport .roundedContentBox .boxes-mr,div#paymentWizard.earnGold .roundedContentBox .boxes-ml,div#paymentWizard.earnGold .roundedContentBox .boxes-mr{background-image:url(../../img/paymentWizard/providerBordersVerticalHover-rtl.png);}
+div#paymentWizard .contentArea .roundedContentBox .footer a,div#paymentWizard.earnGold .infoArea .footer a,div#paymentWizard.earnGold .contentArea a{background-image:url(../../img/pager/next-ltr.png);background-position:right 4px;padding-right:8px;}
+div#paymentWizard.plusSupport .roundedContentBox .boxes-tl,div#paymentWizard.plusSupport .roundedContentBox .boxes-tr,div#paymentWizard.plusSupport .roundedContentBox .boxes-tc,div#paymentWizard.plusSupport .roundedContentBox .boxes-bl,div#paymentWizard.plusSupport .roundedContentBox .boxes-br,div#paymentWizard.plusSupport .roundedContentBox .boxes-bc,div#paymentWizard.earnGold .roundedContentBox .boxes-tl,div#paymentWizard.earnGold .roundedContentBox .boxes-tr,div#paymentWizard.earnGold .roundedContentBox .boxes-tc,div#paymentWizard.earnGold .roundedContentBox .boxes-bl,div#paymentWizard.earnGold .roundedContentBox .boxes-br,div#paymentWizard.earnGold .roundedContentBox .boxes-bc{background-image:url(../../img/paymentWizard/providerBorders-ltr.png);}
+div#paymentWizard.plusSupport .roundedContentBox .boxes-ml,div#paymentWizard.plusSupport .roundedContentBox .boxes-mr,div#paymentWizard.earnGold .roundedContentBox .boxes-ml,div#paymentWizard.earnGold .roundedContentBox .boxes-mr{background-image:url(../../img/paymentWizard/providerBordersVerticalHover-ltr.png);}
 div#paymentWizard.plusSupport .roundedContentBox .boxes-tl,div#paymentWizard.earnGold .roundedContentBox .boxes-tl{background-position:left 0;}
 div#paymentWizard.plusSupport .roundedContentBox .boxes-tr,div#paymentWizard.earnGold .roundedContentBox .boxes-tr{background-position:right 0;}
 div#paymentWizard.plusSupport .roundedContentBox .boxes-tc,div#paymentWizard.earnGold .roundedContentBox .boxes-tc{background-position:left -42px;background-repeat:repeat-x;}
@@ -227,51 +227,51 @@ div#paymentWizard .paymentPopupDialogWrapper #featureCollection{margin-top:25px;
 div#paymentWizard .feature{width:560px;}div#paymentWizard .feature .featureContent{width:547px;}
 div#paymentWizard .featureCollection .premiumFeatureProductionBoost{margin-bottom:-1px;}
 div#paymentWizard .feature .dynamicContent{position:absolute;top:2px;right:-20px;}
-div#paymentWizard .feature .dynamicContent .highlightArrow{width:30px;height:52px;background:url("../../img/paymentWizard/prosArrow-rtl.png");margin-right:-10px;}
+div#paymentWizard .feature .dynamicContent .highlightArrow{width:30px;height:52px;background:url("../../img/paymentWizard/prosArrow-ltr.png");margin-right:-10px;}
 #finishNowDialog ul{list-style:none;padding:0;margin-right:5px;margin-top:5px;margin-bottom:10px;}
 #finishNowDialog ul li.notPossibleToFinishNow{color:#888;}#finishNowDialog p{margin:0 0 10px;}
 #finishNowDialog span.lvl{font-size:12px;color:#F88C1F;font-weight:bold;}.ie7 #finishNowDialog .buttonWrapper button.gold,#finishNowDialog .buttonWrapper{text-align:center;}
 #tileDetails{width:552px;}.dialog #tileDetails{overflow:hidden;position:relative;}
 #tileDetails .detailImage{background-position:0 0;width:319px;min-height:0;padding-top:218px;}
-#tileDetails.landscape .detailImage{width:552px;padding-top:336px;}#tileDetails.village-1 .detailImage{background-image:url(../../img/g/detail.popup/village/f1-rtl.png);}
-#tileDetails.village-2 .detailImage{background-image:url(../../img/g/detail.popup/village/f2-rtl.png);}
-#tileDetails.village-3 .detailImage{background-image:url(../../img/g/detail.popup/village/f3-rtl.png);}
-#tileDetails.village-4 .detailImage{background-image:url(../../img/g/detail.popup/village/f4-rtl.png);}
-#tileDetails.village-5 .detailImage{background-image:url(../../img/g/detail.popup/village/f5-rtl.png);}
-#tileDetails.village-6 .detailImage{background-image:url(../../img/g/detail.popup/village/f6-rtl.png);}
-#tileDetails.village-7 .detailImage{background-image:url(../../img/g/detail.popup/village/f7-rtl.png);}
-#tileDetails.village-8 .detailImage{background-image:url(../../img/g/detail.popup/village/f8-rtl.png);}
-#tileDetails.village-9 .detailImage{background-image:url(../../img/g/detail.popup/village/f9-rtl.png);}
-#tileDetails.village-10 .detailImage{background-image:url(../../img/g/detail.popup/village/f10-rtl.png);}
-#tileDetails.village-11 .detailImage{background-image:url(../../img/g/detail.popup/village/f11-rtl.png);}
-#tileDetails.village-12 .detailImage{background-image:url(../../img/g/detail.popup/village/f12-rtl.png);}
-#tileDetails.village-99 .detailImage{background-image:url(../../img/g/detail.popup/village/f3-rtl.png);}
-#tileDetails.village-1 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d1-rtl.png);}
-#tileDetails.village-2 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d2-rtl.png);}
-#tileDetails.village-3 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d3-rtl.png);}
-#tileDetails.village-4 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d4-rtl.png);}
-#tileDetails.village-5 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d5-rtl.png);}
-#tileDetails.village-6 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d6-rtl.png);}
-#tileDetails.village-7 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d7-rtl.png);}
-#tileDetails.village-8 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d8-rtl.png);}
-#tileDetails.village-9 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d9-rtl.png);}
-#tileDetails.village-10 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d10-rtl.png);}
-#tileDetails.village-11 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d11-rtl.png);}
-#tileDetails.village-12 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d12-rtl.png);}
-#tileDetails.village-99 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d3-rtl.png);}
-#tileDetails.village-1 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f1-rtl.png);}
-#tileDetails.village-2 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f2-rtl.png);}
-#tileDetails.village-3 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f3-rtl.png);}
-#tileDetails.village-4 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f4-rtl.png);}
-#tileDetails.village-5 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f5-rtl.png);}
-#tileDetails.village-6 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f6-rtl.png);}
-#tileDetails.village-7 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f7-rtl.png);}
-#tileDetails.village-8 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f8-rtl.png);}
-#tileDetails.village-9 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f9-rtl.png);}
-#tileDetails.village-10 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f10-rtl.png);}
-#tileDetails.village-11 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f11-rtl.png);}
-#tileDetails.village-12 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f12-rtl.png);}
-#tileDetails.village-99 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f3-rtl.png);}
+#tileDetails.landscape .detailImage{width:552px;padding-top:336px;}#tileDetails.village-1 .detailImage{background-image:url(../../img/g/detail.popup/village/f1-ltr.png);}
+#tileDetails.village-2 .detailImage{background-image:url(../../img/g/detail.popup/village/f2-ltr.png);}
+#tileDetails.village-3 .detailImage{background-image:url(../../img/g/detail.popup/village/f3-ltr.png);}
+#tileDetails.village-4 .detailImage{background-image:url(../../img/g/detail.popup/village/f4-ltr.png);}
+#tileDetails.village-5 .detailImage{background-image:url(../../img/g/detail.popup/village/f5-ltr.png);}
+#tileDetails.village-6 .detailImage{background-image:url(../../img/g/detail.popup/village/f6-ltr.png);}
+#tileDetails.village-7 .detailImage{background-image:url(../../img/g/detail.popup/village/f7-ltr.png);}
+#tileDetails.village-8 .detailImage{background-image:url(../../img/g/detail.popup/village/f8-ltr.png);}
+#tileDetails.village-9 .detailImage{background-image:url(../../img/g/detail.popup/village/f9-ltr.png);}
+#tileDetails.village-10 .detailImage{background-image:url(../../img/g/detail.popup/village/f10-ltr.png);}
+#tileDetails.village-11 .detailImage{background-image:url(../../img/g/detail.popup/village/f11-ltr.png);}
+#tileDetails.village-12 .detailImage{background-image:url(../../img/g/detail.popup/village/f12-ltr.png);}
+#tileDetails.village-99 .detailImage{background-image:url(../../img/g/detail.popup/village/f3-ltr.png);}
+#tileDetails.village-1 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d1-ltr.png);}
+#tileDetails.village-2 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d2-ltr.png);}
+#tileDetails.village-3 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d3-ltr.png);}
+#tileDetails.village-4 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d4-ltr.png);}
+#tileDetails.village-5 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d5-ltr.png);}
+#tileDetails.village-6 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d6-ltr.png);}
+#tileDetails.village-7 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d7-ltr.png);}
+#tileDetails.village-8 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d8-ltr.png);}
+#tileDetails.village-9 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d9-ltr.png);}
+#tileDetails.village-10 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d10-ltr.png);}
+#tileDetails.village-11 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d11-ltr.png);}
+#tileDetails.village-12 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d12-ltr.png);}
+#tileDetails.village-99 .detailImage.desert{background-image:url(../../img/g/detail.popup/village/d3-ltr.png);}
+#tileDetails.village-1 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f1-ltr.png);}
+#tileDetails.village-2 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f2-ltr.png);}
+#tileDetails.village-3 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f3-ltr.png);}
+#tileDetails.village-4 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f4-ltr.png);}
+#tileDetails.village-5 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f5-ltr.png);}
+#tileDetails.village-6 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f6-ltr.png);}
+#tileDetails.village-7 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f7-ltr.png);}
+#tileDetails.village-8 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f8-ltr.png);}
+#tileDetails.village-9 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f9-ltr.png);}
+#tileDetails.village-10 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f10-ltr.png);}
+#tileDetails.village-11 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f11-ltr.png);}
+#tileDetails.village-12 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f12-ltr.png);}
+#tileDetails.village-99 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f3-ltr.png);}
 #tileDetails.oasis-2 .detailImage{background-image:url(../../img/g/detail.popup/oasis/w2-rtl.jpg);}
 #tileDetails.oasis-3 .detailImage{background-image:url(../../img/g/detail.popup/oasis/w3-rtl.jpg);}
 #tileDetails.oasis-4 .detailImage{background-image:url(../../img/g/detail.popup/oasis/w4-rtl.jpg);}
@@ -299,45 +299,45 @@ div#paymentWizard .feature .dynamicContent .highlightArrow{width:30px;height:52p
 .adventureTimers .adventureDuration{width:15%;vertical-align:top;}.adventureTimers .adventureTimeAt{width:54%;vertical-align:top;}
 .adventureInfo{margin-top:18px;margin-bottom:18px;}.ie8 .adventureInfo{padding-top:18px;}
 .adventureSend{width:100%;position:relative;text-align:center;}.adventureBackButton{position:absolute;left:0;top:5px;}
-.dialog #tileDetails.village-1 .detailImage{background-image:url(../../img/g/detail/village/f1-rtl.png);}
-.dialog #tileDetails.village-2 .detailImage{background-image:url(../../img/g/detail/village/f2-rtl.png);}
-.dialog #tileDetails.village-3 .detailImage{background-image:url(../../img/g/detail/village/f3-rtl.png);}
-.dialog #tileDetails.village-4 .detailImage{background-image:url(../../img/g/detail/village/f4-rtl.png);}
-.dialog #tileDetails.village-5 .detailImage{background-image:url(../../img/g/detail/village/f5-rtl.png);}
-.dialog #tileDetails.village-6 .detailImage{background-image:url(../../img/g/detail/village/f6-rtl.png);}
-.dialog #tileDetails.village-7 .detailImage{background-image:url(../../img/g/detail/village/f7-rtl.png);}
-.dialog #tileDetails.village-8 .detailImage{background-image:url(../../img/g/detail/village/f8-rtl.png);}
-.dialog #tileDetails.village-9 .detailImage{background-image:url(../../img/g/detail/village/f9-rtl.png);}
-.dialog #tileDetails.village-10 .detailImage{background-image:url(../../img/g/detail/village/f10-rtl.png);}
-.dialog #tileDetails.village-11 .detailImage{background-image:url(../../img/g/detail/village/f11-rtl.png);}
-.dialog #tileDetails.village-12 .detailImage{background-image:url(../../img/g/detail/village/f12-rtl.png);}
-.dialog #tileDetails.village-99 .detailImage{background-image:url(../../img/g/detail/village/f3-rtl.png);}
-.dialog #tileDetails.village-1 .detailImage.desert{background-image:url(../../img/g/detail/village/d1-rtl.png);}
-.dialog #tileDetails.village-2 .detailImage.desert{background-image:url(../../img/g/detail/village/d2-rtl.png);}
-.dialog #tileDetails.village-3 .detailImage.desert{background-image:url(../../img/g/detail/village/d3-rtl.png);}
-.dialog #tileDetails.village-4 .detailImage.desert{background-image:url(../../img/g/detail/village/d4-rtl.png);}
-.dialog #tileDetails.village-5 .detailImage.desert{background-image:url(../../img/g/detail/village/d5-rtl.png);}
-.dialog #tileDetails.village-6 .detailImage.desert{background-image:url(../../img/g/detail/village/d6-rtl.png);}
-.dialog #tileDetails.village-7 .detailImage.desert{background-image:url(../../img/g/detail/village/d7-rtl.png);}
-.dialog #tileDetails.village-8 .detailImage.desert{background-image:url(../../img/g/detail/village/d8-rtl.png);}
-.dialog #tileDetails.village-9 .detailImage.desert{background-image:url(../../img/g/detail/village/d9-rtl.png);}
-.dialog #tileDetails.village-10 .detailImage.desert{background-image:url(../../img/g/detail/village/d10-rtl.png);}
-.dialog #tileDetails.village-11 .detailImage.desert{background-image:url(../../img/g/detail/village/d11-rtl.png);}
-.dialog #tileDetails.village-12 .detailImage.desert{background-image:url(../../img/g/detail/village/d12-rtl.png);}
-.dialog #tileDetails.village-99 .detailImage.desert{background-image:url(../../img/g/detail/village/d3-rtl.png);}
-.dialog #tileDetails.village-1 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f1-rtl.png);}
-.dialog #tileDetails.village-2 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f2-rtl.png);}
-.dialog #tileDetails.village-3 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f3-rtl.png);}
-.dialog #tileDetails.village-4 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f4-rtl.png);}
-.dialog #tileDetails.village-5 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f5-rtl.png);}
-.dialog #tileDetails.village-6 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f6-rtl.png);}
-.dialog #tileDetails.village-7 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f7-rtl.png);}
-.dialog #tileDetails.village-8 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f8-rtl.png);}
-.dialog #tileDetails.village-9 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f9-rtl.png);}
-.dialog #tileDetails.village-10 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f10-rtl.png);}
-.dialog #tileDetails.village-11 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f11-rtl.png);}
-.dialog #tileDetails.village-12 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f12-rtl.png);}
-.dialog #tileDetails.village-99 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f3-rtl.png);}
+.dialog #tileDetails.village-1 .detailImage{background-image:url(../../img/g/detail/village/f1-ltr.png);}
+.dialog #tileDetails.village-2 .detailImage{background-image:url(../../img/g/detail/village/f2-ltr.png);}
+.dialog #tileDetails.village-3 .detailImage{background-image:url(../../img/g/detail/village/f3-ltr.png);}
+.dialog #tileDetails.village-4 .detailImage{background-image:url(../../img/g/detail/village/f4-ltr.png);}
+.dialog #tileDetails.village-5 .detailImage{background-image:url(../../img/g/detail/village/f5-ltr.png);}
+.dialog #tileDetails.village-6 .detailImage{background-image:url(../../img/g/detail/village/f6-ltr.png);}
+.dialog #tileDetails.village-7 .detailImage{background-image:url(../../img/g/detail/village/f7-ltr.png);}
+.dialog #tileDetails.village-8 .detailImage{background-image:url(../../img/g/detail/village/f8-ltr.png);}
+.dialog #tileDetails.village-9 .detailImage{background-image:url(../../img/g/detail/village/f9-ltr.png);}
+.dialog #tileDetails.village-10 .detailImage{background-image:url(../../img/g/detail/village/f10-ltr.png);}
+.dialog #tileDetails.village-11 .detailImage{background-image:url(../../img/g/detail/village/f11-ltr.png);}
+.dialog #tileDetails.village-12 .detailImage{background-image:url(../../img/g/detail/village/f12-ltr.png);}
+.dialog #tileDetails.village-99 .detailImage{background-image:url(../../img/g/detail/village/f3-ltr.png);}
+.dialog #tileDetails.village-1 .detailImage.desert{background-image:url(../../img/g/detail/village/d1-ltr.png);}
+.dialog #tileDetails.village-2 .detailImage.desert{background-image:url(../../img/g/detail/village/d2-ltr.png);}
+.dialog #tileDetails.village-3 .detailImage.desert{background-image:url(../../img/g/detail/village/d3-ltr.png);}
+.dialog #tileDetails.village-4 .detailImage.desert{background-image:url(../../img/g/detail/village/d4-ltr.png);}
+.dialog #tileDetails.village-5 .detailImage.desert{background-image:url(../../img/g/detail/village/d5-ltr.png);}
+.dialog #tileDetails.village-6 .detailImage.desert{background-image:url(../../img/g/detail/village/d6-ltr.png);}
+.dialog #tileDetails.village-7 .detailImage.desert{background-image:url(../../img/g/detail/village/d7-ltr.png);}
+.dialog #tileDetails.village-8 .detailImage.desert{background-image:url(../../img/g/detail/village/d8-ltr.png);}
+.dialog #tileDetails.village-9 .detailImage.desert{background-image:url(../../img/g/detail/village/d9-ltr.png);}
+.dialog #tileDetails.village-10 .detailImage.desert{background-image:url(../../img/g/detail/village/d10-ltr.png);}
+.dialog #tileDetails.village-11 .detailImage.desert{background-image:url(../../img/g/detail/village/d11-ltr.png);}
+.dialog #tileDetails.village-12 .detailImage.desert{background-image:url(../../img/g/detail/village/d12-ltr.png);}
+.dialog #tileDetails.village-99 .detailImage.desert{background-image:url(../../img/g/detail/village/d3-ltr.png);}
+.dialog #tileDetails.village-1 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f1-ltr.png);}
+.dialog #tileDetails.village-2 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f2-ltr.png);}
+.dialog #tileDetails.village-3 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f3-ltr.png);}
+.dialog #tileDetails.village-4 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f4-ltr.png);}
+.dialog #tileDetails.village-5 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f5-ltr.png);}
+.dialog #tileDetails.village-6 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f6-ltr.png);}
+.dialog #tileDetails.village-7 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f7-ltr.png);}
+.dialog #tileDetails.village-8 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f8-ltr.png);}
+.dialog #tileDetails.village-9 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f9-ltr.png);}
+.dialog #tileDetails.village-10 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f10-ltr.png);}
+.dialog #tileDetails.village-11 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f11-ltr.png);}
+.dialog #tileDetails.village-12 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f12-ltr.png);}
+.dialog #tileDetails.village-99 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f3-ltr.png);}
 .dialog #tileDetails.oasis-2 .detailImage{background-image:url(../../img/g/detail/oasis/w2-rtl.jpg);}
 .dialog #tileDetails.oasis-3 .detailImage{background-image:url(../../img/g/detail/oasis/w4-rtl.jpg);}
 .dialog #tileDetails.oasis-4 .detailImage{background-image:url(../../img/g/detail/oasis/w3-rtl.jpg);}
@@ -373,10 +373,10 @@ div#paymentWizard .feature .dynamicContent .highlightArrow{width:30px;height:52p
 #tileDetails table#troop_info.rep img.carry{float:left;margin-left:55px;}#tileDetails table#distribution{width:100%;}
 #tileDetails table#distribution .ico{width:10%;}#tileDetails table#distribution .val{width:19%;text-align:left;padding-left:5px;}
 #tileDetails table#distribution .val{font-weight:bold;}#tileDetails .options #crud-raidlist-button{overflow:hidden;text-overflow:ellipsis;}
-img.g35{background-image:url(../../img/g/g35_brewery-rtl.png);}.ie6 img.g35{background-image:url(../../img/g/g35_brewery-rtl.gif);}
-img.g35b{background-image:url(../../img/g/construction/g35b_brewery-rtl.png);}.ie6 img.g35b{background-image:url(../../img/g/construction/g35b_brewery-rtl.gif);}
-img.g35Icon{background-image:url(../../img/g/icon/g35Icon_brewery.gif);}.ie7 img.g35.big.white,.ie8 img.g35.big.white,.ie9 img.g35.big.white,.webkit img.g35.big.white,.gecko img.g35.big.white,.presto img.g35.big.white{background-image:url(../../img/g/big/white/g35_brewery-rtl.png);}
-.ie7 img.g35.big.black,.ie8 img.g35.big.black,.ie9 img.g35.big.black,.webkit img.g35.big.black,.gecko img.g35.big.black,.presto img.g35.big.black{background-image:url(../../img/g/big/black/g35_brewery-rtl.png);}
+img.g35{background-image:url(../../img/g/g35_brewery-ltr.png);}.ie6 img.g35{background-image:url(../../img/g/g35_brewery-rtl.gif);}
+img.g35b{background-image:url(../../img/g/construction/g35b_brewery-ltr.png);}.ie6 img.g35b{background-image:url(../../img/g/construction/g35b_brewery-rtl.gif);}
+img.g35Icon{background-image:url(../../img/g/icon/g35Icon_brewery.gif);}.ie7 img.g35.big.white,.ie8 img.g35.big.white,.ie9 img.g35.big.white,.webkit img.g35.big.white,.gecko img.g35.big.white,.presto img.g35.big.white{background-image:url(../../img/g/big/white/g35_brewery-ltr.png);}
+.ie7 img.g35.big.black,.ie8 img.g35.big.black,.ie9 img.g35.big.black,.webkit img.g35.big.black,.gecko img.g35.big.black,.presto img.g35.big.black{background-image:url(../../img/g/big/black/g35_brewery-ltr.png);}
 .ie6 div.build_desc img.g35{background-image:url(../../img/g/big/black/g35_brewery-rtl.gif);}
 .ie6 div.dialog .manual img.g35{background-image:url(../../img/g/big/black/g35_brewery-rtl.gif);}
 body.qualificationServerLoader,body.qualificationServerLogin,body.qualificationServerLogout,body.qualificationServerSignup,body.qualificationServerSupport,body.qualificationServerActivate,body.qualificationServerError_site,body.qualificationServerFatal_error,body.qualificationServerBanned_cn{background-image:url(../../img/layout/bgQ.jpg);}
@@ -393,8 +393,8 @@ body.ie6.qualificationServerLoader #tournamentLogo,body.ie6.qualificationServerL
 .ie .highlighted.rectangle.top.right{border-top-left-radius:4px;border-top-right-radius:0;}
 .ie .highlighted.rectangle.bottom.right{border-bottom-left-radius:4px;border-bottom-right-radius:0;}
 .ie .highlighted.rectangle.bottom.left{border-bottom-right-radius:4px;border-bottom-left-radius:0;}
-img.building.g8.highlighted.background{background-image:url("../../img/g/outline/g8-rtl.png");}
-img.building.g25.highlighted.background{background-image:url("../../img/g/outline/g25-rtl.png");}
+img.building.g8.highlighted.background{background-image:url("../../img/g/outline/g8-ltr.png");}
+img.building.g25.highlighted.background{background-image:url("../../img/g/outline/g25-ltr.png");}
 .headerAdventures{line-height:20px;height:25px;padding-bottom:10px;padding-top:10px;font-weight:bold;}
 div.durationCalculationsContainer img.openedClosedSwitch{width:18px;height:18px;float:right;padding:0;margin-left:5px;}
 .adventureStatusMessage{padding:5px 10px;margin-bottom:10px;}.adventureStatusMessage .subMessage,.attribute .subMessage{padding-right:20px;font-style:italic;}
@@ -540,7 +540,7 @@ div.dialog div.content hr.achievementLine{border-style:none none solid;border-co
 .questWrapper h4{margin-bottom:0;}.questWrapper .questRewards{margin-top:10px;}.questWrapper .questRewards ul.questRewardsList{width:470px;}
 .questWrapper .questRewards ul.questRewardsList li{float:right;margin-left:20px;}
 .questWrapper .questRewards img{height:16px;width:16px;}.questWrapper .questRewards img.questRewardTypeResource{background:url(../../img/a/res2Big-rtl.gif);}
-.questWrapper .questRewards img.questRewardTypeGold{background:url(../../img/round/button/content/goldInner-rtl.png);height:14px;width:14px;}
+.questWrapper .questRewards img.questRewardTypeGold{background:url(../../img/round/button/content/goldInner-ltr.png);height:14px;width:14px;}
 .questWrapper .questRewards img.questRewardTypeSilver{background:url(../../img/a/silver-rtl.gif);height:10px;width:10px;}
 .questWrapper .questRewards img.questRewardTypeItem{background:url(../../img/hero/item.gif);}
 .questWrapper .questRewards img.questRewardTypeItem.item112{background-position:0 224px;}
@@ -558,26 +558,26 @@ div.dialog div.content hr.achievementLine{border-style:none none solid;border-co
 .questWrapper .questTodoList .questCategoryHeadline .questCategoryName{float:right;}
 .questWrapper .questTodoList .questCategoryHeadline .questCategoryStats{float:left;}
 .questWrapper .questTodoList .questName{margin-right:20px;}.questWrapper .categoryProgress{float:left;}
-.questWrapper .questImage img.tutorial_01_task_image_vid1{background-image:url(../../img/quests/descriptionImage/tutorial_01_task_image_vid1-rtl.png);}
-.questWrapper .questImage img.tutorial_01_task_image_vid2{background-image:url(../../img/quests/descriptionImage/tutorial_01_task_image_vid2-rtl.png);}
-.questWrapper .questImage img.tutorial_01_task_image_vid3{background-image:url(../../img/quests/descriptionImage/tutorial_01_task_image_vid3-rtl.png);}
+.questWrapper .questImage img.tutorial_01_task_image_vid1{background-image:url(../../img/quests/descriptionImage/tutorial_01_task_image_vid1-ltr.png);}
+.questWrapper .questImage img.tutorial_01_task_image_vid2{background-image:url(../../img/quests/descriptionImage/tutorial_01_task_image_vid2-ltr.png);}
+.questWrapper .questImage img.tutorial_01_task_image_vid3{background-image:url(../../img/quests/descriptionImage/tutorial_01_task_image_vid3-ltr.png);}
 .questWrapper .questImage img.tutorial_02_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_02_reward_image-rtl-ignore.png);}
-.questWrapper .questImage img.tutorial_02_task_image_vid1{background-image:url(../../img/quests/descriptionImage/tutorial_02_task_image_vid1-rtl.png);}
-.questWrapper .questImage img.tutorial_02_task_image_vid2{background-image:url(../../img/quests/descriptionImage/tutorial_02_task_image_vid2-rtl.png);}
-.questWrapper .questImage img.tutorial_02_task_image_vid3{background-image:url(../../img/quests/descriptionImage/tutorial_02_task_image_vid3-rtl.png);}
+.questWrapper .questImage img.tutorial_02_task_image_vid1{background-image:url(../../img/quests/descriptionImage/tutorial_02_task_image_vid1-ltr.png);}
+.questWrapper .questImage img.tutorial_02_task_image_vid2{background-image:url(../../img/quests/descriptionImage/tutorial_02_task_image_vid2-ltr.png);}
+.questWrapper .questImage img.tutorial_02_task_image_vid3{background-image:url(../../img/quests/descriptionImage/tutorial_02_task_image_vid3-ltr.png);}
 .questWrapper .questImage img.tutorial_03_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_03_reward_image-rtl-ignore.png);}
-.questWrapper .questImage img.tutorial_03_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_03_task_image-rtl.png);}
+.questWrapper .questImage img.tutorial_03_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_03_task_image-ltr.png);}
 .questWrapper .questImage img.tutorial_04_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_04_reward_image-rtl-ignore.png);}
 .questWrapper .questImage img.tutorial_04_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_04_task_image-rtl-ignore.png);}
 .questWrapper .questImage img.tutorial_05_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_05_reward_image-rtl-ignore.png);}
-.questWrapper .questImage img.tutorial_05_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_05_task_image-rtl.png);}
+.questWrapper .questImage img.tutorial_05_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_05_task_image-ltr.png);}
 .questWrapper .questImage img.tutorial_06_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_06_reward_image-rtl-ignore.png);}
 .questWrapper .questImage img.tutorial_06_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_06_task_image-rtl-ignore.png);}
-.questWrapper .questImage img.tutorial_07_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_07_task_image-rtl.png);}
+.questWrapper .questImage img.tutorial_07_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_07_task_image-ltr.png);}
 .questWrapper .questImage img.tutorial_08_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_08_reward_image-rtl-ignore.png);}
-.questWrapper .questImage img.tutorial_08_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_08_task_image-rtl.png);}
+.questWrapper .questImage img.tutorial_08_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_08_task_image-ltr.png);}
 .questWrapper .questImage img.tutorial_09_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_09_reward_image-rtl-ignore.png);}
-.questWrapper .questImage img.tutorial_09_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_09_task_image-rtl.png);}
+.questWrapper .questImage img.tutorial_09_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_09_task_image-ltr.png);}
 .questWrapper .questImage img.tutorial_10_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_10_reward_image-rtl-ignore.png);}
 .questWrapper .questImage img.tutorial_10_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_10_task_image-rtl-ignore.png);}
 .questWrapper .questImage img.tutorial_11_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_11_reward_image-rtl-ignore.png);}
@@ -587,11 +587,11 @@ div.dialog div.content hr.achievementLine{border-style:none none solid;border-co
 .questWrapper .questImage img.tutorial_13_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_13_reward_image-rtl-ignore.png);}
 .questWrapper .questImage img.tutorial_13_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_13_task_image-rtl-ignore.png);}
 .questWrapper .questImage img.tutorial_14_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_14_reward_image-rtl-ignore.png);}
-.questWrapper .questImage img.tutorial_14_task_image_vid1{background-image:url(../../img/quests/descriptionImage/tutorial_14_task_image_vid1-rtl.png);}
-.questWrapper .questImage img.tutorial_14_task_image_vid2{background-image:url(../../img/quests/descriptionImage/tutorial_14_task_image_vid2-rtl.png);}
-.questWrapper .questImage img.tutorial_14_task_image_vid3{background-image:url(../../img/quests/descriptionImage/tutorial_14_task_image_vid3-rtl.png);}
-.questWrapper .questImage img.tutorial_15_reward_image_vid1{background-image:url(../../img/quests/descriptionImage/tutorial_15_reward_image_vid1-rtl.png);}
-.questWrapper .questImage img.tutorial_15_reward_image_vid2{background-image:url(../../img/quests/descriptionImage/tutorial_15_reward_image_vid2-rtl.png);}
+.questWrapper .questImage img.tutorial_14_task_image_vid1{background-image:url(../../img/quests/descriptionImage/tutorial_14_task_image_vid1-ltr.png);}
+.questWrapper .questImage img.tutorial_14_task_image_vid2{background-image:url(../../img/quests/descriptionImage/tutorial_14_task_image_vid2-ltr.png);}
+.questWrapper .questImage img.tutorial_14_task_image_vid3{background-image:url(../../img/quests/descriptionImage/tutorial_14_task_image_vid3-ltr.png);}
+.questWrapper .questImage img.tutorial_15_reward_image_vid1{background-image:url(../../img/quests/descriptionImage/tutorial_15_reward_image_vid1-ltr.png);}
+.questWrapper .questImage img.tutorial_15_reward_image_vid2{background-image:url(../../img/quests/descriptionImage/tutorial_15_reward_image_vid2-ltr.png);}
 .questWrapper .questImage img.tutorial_15_reward_image_vid3{background-image:url(../../img/quests/descriptionImage/tutorial_15_reward_image_vid3.png);}
 .questWrapper .questImage img.tutorial_15_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_15_task_image-rtl-ignore.png);}
 .questWrapper .questImage img.economy_01{background-image:url(../../img/quests/descriptionImage/economy_01-rtl-ignore.png);}
@@ -600,7 +600,7 @@ div.dialog div.content hr.achievementLine{border-style:none none solid;border-co
 .questWrapper .questImage img.economy_04{background-image:url(../../img/quests/descriptionImage/economy_04-rtl-ignore.png);}
 .questWrapper .questImage img.economy_05{background-image:url(../../img/quests/descriptionImage/economy_05-rtl-ignore.png);}
 .questWrapper .questImage img.economy_06{background-image:url(../../img/quests/descriptionImage/economy_06-rtl-ignore.png);}
-.questWrapper .questImage img.economy_07{background-image:url(../../img/quests/descriptionImage/economy_07-rtl.png);}
+.questWrapper .questImage img.economy_07{background-image:url(../../img/quests/descriptionImage/economy_07-ltr.png);}
 .questWrapper .questImage img.economy_08{background-image:url(../../img/quests/descriptionImage/economy_08-rtl-ignore.png);}
 .questWrapper .questImage img.economy_09{background-image:url(../../img/quests/descriptionImage/economy_09-rtl-ignore.png);}
 .questWrapper .questImage img.economy_10{background-image:url(../../img/quests/descriptionImage/economy_10-rtl-ignore.png);}
@@ -610,45 +610,45 @@ div.dialog div.content hr.achievementLine{border-style:none none solid;border-co
 .questWrapper .questImage img.battle_02{background-image:url(../../img/quests/descriptionImage/battle_02-rtl-ignore.png);}
 .questWrapper .questImage img.battle_03{background-image:url(../../img/quests/descriptionImage/battle_03-rtl-ignore.png);}
 .questWrapper .questImage img.battle_04{background-image:url(../../img/quests/descriptionImage/battle_04-rtl-ignore.png);}
-.questWrapper .questImage img.battle_05_vid1{background-image:url(../../img/quests/descriptionImage/battle_05_vid1-rtl.png);}
-.questWrapper .questImage img.battle_05_vid2{background-image:url(../../img/quests/descriptionImage/battle_05_vid2-rtl.png);}
-.questWrapper .questImage img.battle_05_vid3{background-image:url(../../img/quests/descriptionImage/battle_05_vid3-rtl.png);}
-.questWrapper .questImage img.battle_06_vid1{background-image:url(../../img/quests/descriptionImage/battle_06_vid1-rtl.png);}
-.questWrapper .questImage img.battle_06_vid2{background-image:url(../../img/quests/descriptionImage/battle_06_vid2-rtl.png);}
-.questWrapper .questImage img.battle_06_vid3{background-image:url(../../img/quests/descriptionImage/battle_06_vid3-rtl.png);}
-.questWrapper .questImage img.battle_07{background-image:url(../../img/quests/descriptionImage/battle_07-rtl.png);}
-.questWrapper .questImage img.battle_08{background-image:url(../../img/quests/descriptionImage/battle_08-rtl.png);}
-.questWrapper .questImage img.battle_09{background-image:url(../../img/quests/descriptionImage/battle_09-rtl.png);}
+.questWrapper .questImage img.battle_05_vid1{background-image:url(../../img/quests/descriptionImage/battle_05_vid1-ltr.png);}
+.questWrapper .questImage img.battle_05_vid2{background-image:url(../../img/quests/descriptionImage/battle_05_vid2-ltr.png);}
+.questWrapper .questImage img.battle_05_vid3{background-image:url(../../img/quests/descriptionImage/battle_05_vid3-ltr.png);}
+.questWrapper .questImage img.battle_06_vid1{background-image:url(../../img/quests/descriptionImage/battle_06_vid1-ltr.png);}
+.questWrapper .questImage img.battle_06_vid2{background-image:url(../../img/quests/descriptionImage/battle_06_vid2-ltr.png);}
+.questWrapper .questImage img.battle_06_vid3{background-image:url(../../img/quests/descriptionImage/battle_06_vid3-ltr.png);}
+.questWrapper .questImage img.battle_07{background-image:url(../../img/quests/descriptionImage/battle_07-ltr.png);}
+.questWrapper .questImage img.battle_08{background-image:url(../../img/quests/descriptionImage/battle_08-ltr.png);}
+.questWrapper .questImage img.battle_09{background-image:url(../../img/quests/descriptionImage/battle_09-ltr.png);}
 .questWrapper .questImage img.battle_10{background-image:url(../../img/quests/descriptionImage/battle_10-rtl-ignore.png);}
 .questWrapper .questImage img.battle_11{background-image:url(../../img/quests/descriptionImage/battle_11-rtl-ignore.png);}
-.questWrapper .questImage img.battle_12_vid1{background-image:url(../../img/quests/descriptionImage/battle_12_vid1-rtl.png);}
-.questWrapper .questImage img.battle_12_vid2{background-image:url(../../img/quests/descriptionImage/battle_12_vid2-rtl.png);}
-.questWrapper .questImage img.battle_12_vid3{background-image:url(../../img/quests/descriptionImage/battle_12_vid3-rtl.png);}
+.questWrapper .questImage img.battle_12_vid1{background-image:url(../../img/quests/descriptionImage/battle_12_vid1-ltr.png);}
+.questWrapper .questImage img.battle_12_vid2{background-image:url(../../img/quests/descriptionImage/battle_12_vid2-ltr.png);}
+.questWrapper .questImage img.battle_12_vid3{background-image:url(../../img/quests/descriptionImage/battle_12_vid3-ltr.png);}
 .questWrapper .questImage img.battle_13{background-image:url(../../img/quests/descriptionImage/battle_13-rtl-ignore.png);}
-.questWrapper .questImage img.battle_14{background-image:url(../../img/quests/descriptionImage/battle_14-rtl.png);}
+.questWrapper .questImage img.battle_14{background-image:url(../../img/quests/descriptionImage/battle_14-ltr.png);}
 .questWrapper .questImage img.battle_15{background-image:url(../../img/quests/descriptionImage/battle_01-rtl-ignore.png);}
-.questWrapper .questImage img.world_01{background-image:url(../../img/quests/descriptionImage/world_01-rtl.png);}
+.questWrapper .questImage img.world_01{background-image:url(../../img/quests/descriptionImage/world_01-ltr.png);}
 .questWrapper .questImage img.world_02{background-image:url(../../img/quests/descriptionImage/world_02-rtl-ignore.png);}
 .questWrapper .questImage img.world_03{background-image:url(../../img/quests/descriptionImage/world_03-rtl-ignore.png);}
 .questWrapper .questImage img.world_04{background-image:url(../../img/quests/descriptionImage/world_04-rtl-ignore.png);}
-.questWrapper .questImage img.world_05{background-image:url(../../img/quests/descriptionImage/world_05-rtl.png);}
+.questWrapper .questImage img.world_05{background-image:url(../../img/quests/descriptionImage/world_05-ltr.png);}
 .questWrapper .questImage img.world_06{background-image:url(../../img/quests/descriptionImage/world_06-rtl-ignore.png);}
 .questWrapper .questImage img.world_07{background-image:url(../../img/quests/descriptionImage/world_07-rtl-ignore.png);}
-.questWrapper .questImage img.world_08{background-image:url(../../img/quests/descriptionImage/world_08-rtl.png);}
+.questWrapper .questImage img.world_08{background-image:url(../../img/quests/descriptionImage/world_08-ltr.png);}
 .questWrapper .questImage img.world_09{background-image:url(../../img/quests/descriptionImage/world_09-rtl-ignore.png);}
 .questWrapper .questImage img.world_10{background-image:url(../../img/quests/descriptionImage/world_10-rtl-ignore.png);}
-.questWrapper .questImage img.world_11{background-image:url(../../img/quests/descriptionImage/world_11-rtl.png);}
+.questWrapper .questImage img.world_11{background-image:url(../../img/quests/descriptionImage/world_11-ltr.png);}
 .questWrapper .questImage img.world_12{background-image:url(../../img/quests/descriptionImage/world_12-rtl-ignore.png);}
-.questWrapper .questImage img.world_13{background-image:url(../../img/quests/descriptionImage/world_13-rtl.png);}
+.questWrapper .questImage img.world_13{background-image:url(../../img/quests/descriptionImage/world_13-ltr.png);}
 .questWrapper .questImage img.world_14{background-image:url(../../img/quests/descriptionImage/world_14-rtl-ignore.png);}
-.questWrapper .questImage img.world_15_vid1{background-image:url(../../img/quests/descriptionImage/world_15_vid1-rtl.png);}
-.questWrapper .questImage img.world_15_vid2{background-image:url(../../img/quests/descriptionImage/world_15_vid2-rtl.png);}
-.questWrapper .questImage img.world_15_vid3{background-image:url(../../img/quests/descriptionImage/world_15_vid3-rtl.png);}
-.questWrapper .questImage img.world_16{background-image:url(../../img/quests/descriptionImage/world_16-rtl.png);}
+.questWrapper .questImage img.world_15_vid1{background-image:url(../../img/quests/descriptionImage/world_15_vid1-ltr.png);}
+.questWrapper .questImage img.world_15_vid2{background-image:url(../../img/quests/descriptionImage/world_15_vid2-ltr.png);}
+.questWrapper .questImage img.world_15_vid3{background-image:url(../../img/quests/descriptionImage/world_15_vid3-ltr.png);}
+.questWrapper .questImage img.world_16{background-image:url(../../img/quests/descriptionImage/world_16-ltr.png);}
 .questWrapper .questImage img.achievementQuest_01{background-image:url(../../img/quests/descriptionImage/achievementQuest_01-rtl-ignore.png);}
 .questWrapper .questImage img.achievementQuest_02{background-image:url(../../img/quests/descriptionImage/achievementQuest_02-rtl-ignore.png);}
 .questWrapper .questImage img.achievementQuest_03{background-image:url(../../img/quests/descriptionImage/achievementQuest_03-rtl-ignore.png);}
-.questWrapper .questImage img.achievementQuest_04{background-image:url(../../img/quests/descriptionImage/achievementQuest_04-rtl.png);}
+.questWrapper .questImage img.achievementQuest_04{background-image:url(../../img/quests/descriptionImage/achievementQuest_04-ltr.png);}
 .questWrapper .questImage img.achievementQuest_05{background-image:url(../../img/quests/descriptionImage/achievementQuest_05-rtl-ignore.png);}
 .questWrapper .questImage img.achievementQuest_06{background-image:url(../../img/quests/descriptionImage/achievementQuest_06-rtl-ignore.png);}
 .questWrapper .questImage img.achievementQuest_07{background-image:url(../../img/quests/descriptionImage/achievementQuest_07-rtl-ignore.png);}
@@ -666,8 +666,8 @@ div#center #closeContentButton.highlighted.background:hover{background-position:
 #navigation .inactive.highlighted.background:hover,#navigation .inactive.highlighted.background:active,#navigation .inactive.highlighted.background.active{background-position:right top;}
 #navigation li a.highlighted.background{background-image:url(../../img/quests/highlight/navigationButtonHighlight.png);background-position:right top;margin-top:0;margin-right:2px;}
 .perspectiveResources #village_map .level.highlighted.background{background-image:url(../../img/quests/highlight/resourceFieldHighlight.png);background-position:right top;margin-right:1px;}
-.perspectiveBuildings #village_map .iso.highlighted.background{background-image:url(../../img/quests/highlight/buildingPlaceHighlight-rtl.png);background-position:right top;}
-.perspectiveBuildings #village_map .g16e.highlighted.background{background-image:url(../../img/quests/highlight/rallyPointBuildingPlaceHighlight-rtl.png);background-position:right top;}
+.perspectiveBuildings #village_map .iso.highlighted.background{background-image:url(../../img/quests/highlight/buildingPlaceHighlight-ltr.png);background-position:right top;}
+.perspectiveBuildings #village_map .g16e.highlighted.background{background-image:url(../../img/quests/highlight/rallyPointBuildingPlaceHighlight-ltr.png);background-position:right top;}
 div.sidebar div#sidebarBoxHero .heroImageButton.highlighted.background{background-image:url(../../img/quests/highlight/heroButtonHighlight.png);background-position:right top;margin-right:2px;}
 #questTodoListDialog ul li.questName img.reward{background-image:url(../../img/a/check.png);width:12px;height:12px;}
 #questTodoListDialog ul{list-style:none;}div.dialog div.content h1.questList{color:#7B624C;text-align:center;}
@@ -688,7 +688,7 @@ div#achievementRewardList div.achievement div.pointAmount.points_25{font-size:21
 div#achievementRewardList div.achievement div.pointAmount.points_50{font-size:21px;left:32px;position:absolute;top:20px;}
 div#achievementRewardList div.achievement div.pointAmount.points_75{font-size:21px;left:30px;position:absolute;top:20px;}
 div#achievementRewardList div.achievement div.pointAmount.points_100{font-size:21px;left:24px;position:absolute;top:20px;}
-div.dialog div.content #achievementRewardList div.achievement .bigSpeechBubble.rewardReady img{background-image:url("../../img/layout/icons/exclamationMark-rtl.png");}
+div.dialog div.content #achievementRewardList div.achievement .bigSpeechBubble.rewardReady img{background-image:url("../../img/layout/icons/exclamationMark-ltr.png");}
 div.dialog div.content #achievementRewardList div.achievement .bigSpeechBubble{position:absolute;right:-12px;top:76px;}
 div.dialog div.content #achievementRewardList div.achievementArrow{background:url("../../img/quests/achievement/pfeil.png") no-repeat center center;float:right;width:9px;height:112px;margin-right:5px;margin-left:3px;}
 div.dialog div.content #achievementRewardList div.verticalLine{background-color:#DCD6CA;float:right;width:1px;height:112px;margin-right:10px;margin-left:3px;}
@@ -713,14 +713,14 @@ div#sidebarBoxQuestachievements.sidebarBox div.travianBirthdayRibbon{background-
 div#sidebarBoxQuestachievements.sidebarBox div.travianBirthdayRibbon div.headline{color:#FFF;font-size:13px;padding-left:3px;padding-top:8px;}
 .questWrapper.achievements h2.questTitle{text-align:center;margin-top:10px;}.questWrapper.achievements .difficulty.moderate{color:#006400;}
 .questWrapper.achievements .difficulty.challenging{color:#FF8C00;}.questWrapper.achievements .difficulty.hard{color:#8b0000;}
-div.bigSpeechBubble{background:url(../../img/round/speechBubble/speechBalloonLarge-rtl.png);width:55px;height:44px;}
-.bigSpeechBubble img{width:30px;height:30px;position:relative;right:6px;top:6px;}
+div.bigSpeechBubble{background:url(../../img/round/speechBubble/speechBalloonLarge-ltr.png);width:55px;height:44px;}
+.bigSpeechBubble img{width:30px;height:30px;position:relative;right:-6px;top:6px;}
 button.layoutButton,button.layoutButton div.button-container{width:32px;height:32px;padding:0;}
 button.layoutButton{overflow:visible;}.gecko button.layoutButton div.button-container{top:-1px;right:-3px;}
-button.layoutButton.green div.button-container{background-image:url(../../img/layout/buttonRoundGreen-rtl.png);}
+button.layoutButton.green div.button-container{background-image:url(../../img/layout/buttonRoundGreen-ltr.png);}
 .ie6 button.layoutButton.green div.button-container{background-image:url(../../img/layout/buttonRoundGreen-rtl.gif);background-color:transparent;}
 .ie6 button.layoutButton.green div.button-container div.button-content{background-color:#006400;}
-button.layoutButton.gold div.button-container{background-image:url(../../img/layout/buttonRoundGold-rtl.png);}
+button.layoutButton.gold div.button-container{background-image:url(../../img/layout/buttonRoundGold-ltr.png);}
 .ie6 button.layoutButton.gold div.button-container{background-image:url(../../img/layout/buttonRoundGold-rtl.gif);background-color:transparent;}
 .ie6 button.layoutButton.gold div.button-container div.button-content{background-color:#DAA520;}
 button.layoutButton div.button-container{background-position:right top;}button.layoutButton div.hover{background-position:right -42px;}
@@ -764,7 +764,7 @@ button.layoutButton.gold.disabled div.button-container img{filter:alpha(opacity=
 .ie7 #expansionCulturePoints .fluidSpeechBubble{width:100%;margin-bottom:8px;}#expansionCulturePoints .totalRow td,.totalRow th{font-weight:bold;}
 #expansionCulturePoints .culturePointsSummary,#expansionCulturePoints .culturePointsProduction,#expansionCulturePoints .currentFestivals{border-bottom:3px double black;}
 #expansionCulturePoints .totalRow td div{float:left;}#expansionCulturePoints .totalRow td .speechArrowWrapper{position:absolute;left:-8px;}
-#expansionCulturePoints .totalRow td div.speechArrowBack{margin:0 auto;}#expansionCulturePoints td div.speechArrowBack{background-image:url("../../img/round/speechBubble/arrowBack-rtl.png");}
+#expansionCulturePoints .totalRow td div.speechArrowBack{margin:0 auto;}#expansionCulturePoints td div.speechArrowBack{background-image:url("../../img/round/speechBubble/arrowBack-ltr.png");}
 .ie6 #expansionCulturePoints td div.speechArrowBack{background-image:url("../../img/round/speechBubble/arrowBack-rtl.gif");}
 #expansionCulturePoints td div.speechArrowBack{height:23px;top:-3px;width:12px;z-index:10;}
 #expansionCulturePoints td div.speechArrowBack{position:relative;}#expansionCulturePoints .fluidSpeechBubble .speechArrowBack{display:none;}
@@ -850,10 +850,10 @@ div.sidebar div.sidebarBoxNews{font-size:13px;}div.sidebar div#sidebarBoxMenu ul
 div#sidebarBoxActiveVillage div.sidebarBoxInnerBox div.content div.loyalty{font-size:11px;}
 div.messages .paperContent .label{font-size:12px;}div.messages #backToInbox a{font-size:13px;}
 div.messages #bbEditor .messageEditor{font-size:14px;}table#heroInventoryDataDialog td,table#heroInventoryDataDialog th{font-size:12px;}
-div.hero_auction span.balanceSince{font-size:11px;}img.g35{background-image:url(../../img/g/g35_teahouse-rtl.png);}
-.ie6 img.g35{background-image:url(../../img/g/g35_teahouse-rtl.gif);}img.g35b{background-image:url(../../img/g/construction/g35b_teahouse-rtl.png);}
+div.hero_auction span.balanceSince{font-size:11px;}img.g35{background-image:url(../../img/g/g35_teahouse-ltr.png);}
+.ie6 img.g35{background-image:url(../../img/g/g35_teahouse-rtl.gif);}img.g35b{background-image:url(../../img/g/construction/g35b_teahouse-ltr.png);}
 .ie6 img.g35b{background-image:url(../../img/g/construction/g35b_teahouse-rtl.gif);}
-img.g35Icon{background-image:url(../../img/g/icon/g35Icon_teahouse.gif);}.ie7 img.g35.big.white,.ie8 img.g35.big.white,.ie9 img.g35.big.white,.webkit img.g35.big.white,.gecko img.g35.big.white,.presto img.g35.big.white{background-image:url(../../img/g/big/white/g35_teahouse-rtl.png);}
-.ie7 img.g35.big.black,.ie8 img.g35.big.black,.ie9 img.g35.big.black,.webkit img.g35.big.black,.gecko img.g35.big.black,.presto img.g35.big.black{background-image:url(../../img/g/big/black/g35_teahouse-rtl.png);}
+img.g35Icon{background-image:url(../../img/g/icon/g35Icon_teahouse.gif);}.ie7 img.g35.big.white,.ie8 img.g35.big.white,.ie9 img.g35.big.white,.webkit img.g35.big.white,.gecko img.g35.big.white,.presto img.g35.big.white{background-image:url(../../img/g/big/white/g35_teahouse-ltr.png);}
+.ie7 img.g35.big.black,.ie8 img.g35.big.black,.ie9 img.g35.big.black,.webkit img.g35.big.black,.gecko img.g35.big.black,.presto img.g35.big.black{background-image:url(../../img/g/big/black/g35_teahouse-ltr.png);}
 .ie6 div.build_desc img.g35{background-image:url(../../img/g/big/black/g35_teahouse-rtl.gif);}
 .ie6 div.dialog .manual img.g35{background-image:url(../../img/g/big/black/g35_teahouse-rtl.gif);}

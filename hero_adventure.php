@@ -187,9 +187,7 @@
                                     $outputList .= '<td class="coords"><a href="karte.php?x=' . $coor['x'] . '&amp;y=' . $coor['y'] . '">';
                                     if (DIRECTION == 'ltr') {
                                         $outputList .= '<span class="coordinates coordinatesAligned"><span class="coordinateX">(' . $coor['x'] . '</span><span class="coordinatePipe">|</span><span class="coordinateY">' . $coor['y'] . ')</span>';
-                                    } elseif (DIRECTION == 'rtl') {
-                                        $outputList .= '<span class="coordinates coordinatesAligned"><span class="coordinateY">' . $coor['y'] . ')</span><span class="coordinatePipe">|</span><span class="coordinateX">(' . $coor['x'] . '</span>';
-                                    }
+                                    } 
                                     $outputList .= '</span><span class="clear"></span></a></td>';
                                     $outputList .= "<td class=\"moveTime\"> " . $generator->getTimeFormat($time) . " </td>";
                                     if (!$row['dif']) {

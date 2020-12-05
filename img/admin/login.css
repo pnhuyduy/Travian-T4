@@ -11,18 +11,18 @@
 input {
 	border:1px solid #5a7b9c;
 	color:#666666;
-	direction:rtl;
+	direction:ltr;
 	font-family:Tahoma;
 	font-size:9pt;
 	margin-top:2px;
 }
 table, tr, td, div {
-	direction:rtl;
+	direction:ltr;
 	font-family:Tahoma;
 	font-size:8pt;
 }
 p {
-	direction:rtl;
+	direction:ltr;
 	font-family:Tahoma;
 	font-size:8pt;
 	line-height:130%;

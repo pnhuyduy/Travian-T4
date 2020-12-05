@@ -1,6 +1,6 @@
 <map name='rx' id='rx'>
 <?php
-$coorarray = array(1=>"304,80,28","215,81,28","146,93,28","362,119,28","249,132,28","192,139,28","107,137,28","422,170,28","341,171,28","151,171,28","64,171,28","414,231,28","341,221,28","205,257,28","83,226,28","310,311,28","219,316,28","129,293,28");
+$coorarray = array(1=>"180,80,28","269,81,28","338,93,28","122,119,28","235,132,28","292,139,28","377,137,28","62,170,28","143,171,28","333,171,28","420,171,28","70,231,28","143,221,28","279,257,28","401,226,28","174,311,28","265,316,28","355,293,28");
     for ($i = 1; $i <= 18; $i++) {
 		$loopsame = $building->isCurrent($i)?1:0;
         if ($loopsame>0 && $building->isLoop($i)) {$doublebuild = 1;}
@@ -60,12 +60,12 @@ for($i=1;$i<=18;$i++){
 		}
 		$cstyle = "underConstruction";
 		if($village->resarray['f'.$i] != 0) {
-			echo "<div class=\"level colorLayer ".($village->resarray['f'.$i] == 20 ? 'maxLevel' : 'notNow')." gid".$village->resarray['f'.$i.'t']." level".$village->resarray['f'.$i]."\" style=\"".$style." \"><div class=\"labelLayer\">".$village->resarray['f'.$i]."</div></div>";
+			echo "<div class=\"level colorLayer ".($village->resarray['f'.$i] == 20 ? 'maxLevel' : 'notNow')." gid".$village->resarray['f'.$i.'t']." level".$village->resarray['f'.$i]."\" style=\"".$stylex." \"><div class=\"labelLayer\">".$village->resarray['f'.$i]."</div></div>";
 		}else{
-			echo "<div class=\"level colorLayer good gid".$village->resarray['f'.$i.'t']." level0\" style=\"".$style." \"><div class=\"labelLayer\"></div></div>";
+			echo "<div class=\"level colorLayer good gid".$village->resarray['f'.$i.'t']." level0\" style=\"".$stylex." \"><div class=\"labelLayer\"></div></div>";
 		}
 		if ($database->getBuildingByField($t, $i)){
-			echo "<div class=\"level colorLayer good ".$cstyle."\" style=\"".$style."\"><div class=\"labelLayer\">".$village->resarray['f'.$i]."</div></div>";
+			echo "<div class=\"level colorLayer good ".$cstyle."\" style=\"".$stylex."\"><div class=\"labelLayer\">".$village->resarray['f'.$i]."</div></div>";
 		}
     }
 }

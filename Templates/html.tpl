@@ -13,15 +13,13 @@
     <meta http-equiv='imagetoolbar' content='no'/>
     <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
     <meta name='content-language' content='en'/>
-    <link href='gpack/travian_4.4-TomBox/lang/en/compact.css' rel='stylesheet'
+    <link href='<?= GP_LOCATE;?>lang/en/compact.css' rel='stylesheet'
           type='text/css'/>
-    <link href='gpack/travian_4.4-TomBox/lang/en/compact1.css?0500' rel='stylesheet'
+    <link href='<?= GP_LOCATE;?>lang/en/hero.css' rel='stylesheet'
           type='text/css'/>
-    <link href='gpack/travian_4.4-TomBox/lang/en/hero.css' rel='stylesheet'
+    <link href='<?= GP_LOCATE;?>lang/en/chat.css' rel='stylesheet'
           type='text/css'/>
-    <link href='gpack/travian_4.4-TomBox/lang/en/chat.css' rel='stylesheet'
-          type='text/css'/>
-        <link href='gpack/travian_4.4-TomBox/lang/en/lang.css' rel='stylesheet'
+        <link href='<?= GP_LOCATE;?>lang/en/lang.css' rel='stylesheet'
            type='text/css'/>
     <!--<link href='http://<?php echo $_SERVER['HTTP_HOST']; ?>/img/travian_basics.css' rel='stylesheet' type='text/css' />-->
     <script type="text/javascript" src="crypt.js?0500"></script>
