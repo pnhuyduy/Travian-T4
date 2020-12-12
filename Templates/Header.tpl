@@ -52,7 +52,7 @@ foreach($tt as $url){
         } else {
             $unmsg = $countmsg;
         }
-        $countnot = count($database->getNotice5($session->uid));
+        $countnot = count($database->getNotice($session->uid));
         if ($countnot >= 1) {
             $unnotice = $countnot;
         } else {

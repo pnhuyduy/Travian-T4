@@ -1,16 +1,7 @@
 <h1 class="titleInHeader"><?php echo B17; ?> <span
         class="level"> <?php echo BL_LVL . ' ' . $village->resarray['f' . $id]; ?></span></h1>
 <div id="build" class="gid17">
-    <?php include("17_menu.tpl"); ?>
-    <div class="build_desc">
-        <a href="#" onClick="return Travian.Game.iPopup(17,4);" class="build_logo">
-            <img class="building big white g17" src="img/x.gif" alt="<?php echo B17; ?>" title="<?php echo B17; ?>"/>
-        </a>
-        <?php echo B17_DESC; ?>
-    </div>
-    <?php
-        include("upgrade.tpl");
-        // include("17_menu.tpl");
+    <?php include("17_menu.tpl"); 
     ?>
     <div class="contentNavi"></div>
     <div class="round spacer listTitle">

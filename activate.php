@@ -15,6 +15,9 @@ if(isset($_GET['del_cookie'])) {
 if(!isset($_COOKIE['COOKUSR'])) {
 	$_COOKIE['COOKUSR'] = "";
 }
+if(!isset($_COOKIE['marketTab'])) {
+	$_COOKIE['marketTab'] = "favorKey0";
+}
 include "Templates/html.tpl";
 
 ?>

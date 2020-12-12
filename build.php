@@ -204,6 +204,12 @@
                     <a id="answersButton" class="contentTitleButton" href="http://t4.answers.travian.com/"
                        target="_blank"
                        title="<?php echo BL_TRAVIANANS;?>">&nbsp;</a>
+                    <?php
+                    $tab_id = isset($_GET['t']) ? $_GET['t'] : 0;
+                    ?>
+                    <a id="tabFavorButton" class="contentTitleButton" 
+                    onclick="Cookie.write('marketTab', 'favorKey<?= $tab_id ?>');$$('.favor').removeClass('favorActive');$$('.favor.favorKey<?= $tab_id ?>').addClass('favorActive');return false;"
+                    title="<?php echo BL_FAVOR;?>">&nbsp;</a>
                 </div>
                 <div class="contentContainer">
 
@@ -243,14 +249,22 @@
                                         if ($_GET['t'] == 1) {
                                             $_SESSION['loadMarket'] = 1;
                                         }
-                                        include("Templates/Build/" . $village->resarray['f' . $_GET['id'] . 't'] . "_" . $_GET['t'] . ".tpl");
+                                        if ($_GET['t'] == 0) {
+                                            include("Templates/Build/" . $village->resarray['f' . $_GET['id'] . 't'] . ".tpl");
+                                        } else include("Templates/Build/" . $village->resarray['f' . $_GET['id'] . 't'] . "_" . $_GET['t'] . ".tpl");
                                     } else
                                         if (isset($_GET['s'])) {
                                             include("Templates/Build/" . $village->resarray['f' . $_GET['id'] . 't'] . "_" . $_GET['s'] . ".tpl");
                                         } else {
                                             //echo "Templates/Build/".$village->resarray['f'.$_GET['id'].'t'].".tpl";
                                             //die();
-                                            include("Templates/Build/" . $village->resarray['f' . $_GET['id'] . 't'] . ".tpl");
+                                            $favor_tab_id = isset($_COOKIE['marketTab']) ? str_replace("favorKey", "", $_COOKIE['marketTab']) : 0;
+                                            $favor_tab_id = intval($favor_tab_id);
+                                            
+                                            if ($favor_tab_id && $village->resarray['f' . $_GET['id'] . 't'] == 17) { // Market
+                                                include("Templates/Build/" . $village->resarray['f' . $_GET['id'] . 't'] . "_" . $favor_tab_id . ".tpl");
+                                            } else include("Templates/Build/" . $village->resarray['f' . $_GET['id'] . 't'] . ".tpl");
+                                            
                                         }
                                     if (isset($_GET['t']) == 99) {
 

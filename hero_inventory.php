@@ -508,7 +508,7 @@
                             $amount = '(' . $num . ') ';
                         }
                         $outputList .= "<div id=\"inventory_" . $inv . "\" class=\"inventory draggable\">";
-                        $outputList .= "<div id=\"item_" . $id . "\" title=\"" . $amount . "" . $name . "||" . $deadTitle . "" . $title . "\" class=\"item item_" . $item . "" . $dis . "\" style=\"position:relative;left:0px;top:0px;\">";
+                        $outputList .= "<div id=\"item_" . $id . "\" title=\"" . $amount . "" . $name . "||" . $deadTitle . "" . $title . "\" class=\"item " . $gstr . "_item_" . $item . "" . $dis . "\" style=\"position:relative;left:0px;top:0px;\">";
                         $outputList .= "<div class=\"amount\">" . $num . "</div>";
                         $outputList .= "</div>";
                         $outputList .= '</div>';

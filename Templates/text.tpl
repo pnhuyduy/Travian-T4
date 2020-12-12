@@ -1,5 +1,5 @@
 ﻿<?php
-    $txt = 'ARTEFACTSRELEASED';
+    $txt = 'WWBPRELEASED';
     $ctxt = constant($txt);
     if ($ctxt != null) $txt = $ctxt;
     //bbcode = html code

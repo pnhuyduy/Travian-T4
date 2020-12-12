@@ -7,6 +7,8 @@ ini_set('display_errors', 1);
 class adminModel {
 	var $connection;
 	function __construct(){
+		error_reporting(0);
+		ini_set('display_errors', 0);
 		$this->connection = mysql_connect(SQL_SERVER, SQL_USER, SQL_PASS) or die(mysql_error());
 		mysql_select_db(SQL_DB, $this->connection) or die(mysql_error()); 	            		
 	}
@@ -161,7 +163,7 @@ class adminModel {
 		if($status == 0){
 			mysql_query("Insert into ".TB_PREFIX."admin_log values (0,".$_SESSION['id'].",'Added new village <b><a href=\'index.php?p=village&did=$wid\'>$wid</a></b> to user <b><a href=\'index.php?p=player&uid=$uid\'>$uid</a></b>',".time().")");
 			$database->setFieldTaken($wid);
-			$database->addVillage($wid,$uid,'Ïå˜Ïå ÌÏíÏ','0');
+			$database->addVillage($wid,$uid,'ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½','0');
 			$database->addResourceFields($wid,$database->getVillageType($wid));
 			$database->addUnits($wid);
 			$database->addTech($wid);
